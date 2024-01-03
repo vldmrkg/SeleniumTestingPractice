@@ -22,4 +22,4 @@ The project leverages OOP principles to organize code into classes and objects, 
 
 ## Page Object Model (POM)
 
-POM is implemented to abstract the UI components and actions on the pages. Each page has a corresponding class in the 'pages' module, encapsulating related functionalities.
+POM is implemented to abstract the UI components and actions on the pages. Each page has a corresponding class in the 'locators' module, encapsulating related functionalities.
