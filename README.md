@@ -1,3 +1,4 @@
+<!-- language: python -->
 # pythonTestingSelenium
 
 This project is a practical showcase of my skills in automated testing using Selenium WebDriver, Pytest, and Python. Following Object-Oriented Programming (OOP) principles and the Page Object Model (POM), it demonstrates my proficiency in testing web applications.
