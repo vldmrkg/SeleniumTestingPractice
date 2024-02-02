@@ -11,9 +11,9 @@ class TestSignIn(BaseClass):
     INCORRECT_EMAIL = "vldmra@gmail.comm"
     INCORRECT_PASSWORD = "Lalalala123123sa"
 
-    def test_sign_in_correct_data(self):
+    def perform_sign_in(self, email, password, expected_welcome_message=None):
         log = self.getLogger()
-        log.info("Testing sign-in with correct credentials begins.")
+        log.info(f"Testing sign-in with {'correct' if expected_welcome_message else 'incorrect'} credentials begins.")
 
         homePage = HomePage(self.driver)
         homePage.sign_in()
@@ -22,30 +22,24 @@ class TestSignIn(BaseClass):
         logInPage = CustomerLogin(self.driver)
         assert logInPage.page_title() == "Customer Login"
 
-        logInPage.email_log_in().send_keys(TestSignIn.CORRECT_EMAIL)
-        logInPage.password_log_in().send_keys(TestSignIn.CORRECT_PASSWORD)
-        logInPage.sing_in_button()
-        assert homePage.welcome_user_message() == "Welcome, Vladimir Timotijevic!"
-        logOut = MyAccount(self.driver)
-        logOut.click_sign_out()
-        log.info("Testing sign-in with correct credentials completed.")
+        logInPage.enter_email(email)
+        logInPage.enter_password(password)
+        logInPage.sign_in_button()
+
+        if expected_welcome_message:
+            assert homePage.welcome_user_message() == expected_welcome_message
+            logOut = MyAccount(self.driver)
+            logOut.click_sign_out()
+            log.info("Testing sign-in with correct credentials completed.")
+        else:
+            assert "The account sign-in was incorrect" in logInPage.alert_message()
+            log.info("Testing sign-in with incorrect credentials completed.")
+
+    def test_sign_in_correct_data(self):
+        self.perform_sign_in(TestSignIn.CORRECT_EMAIL, TestSignIn.CORRECT_PASSWORD, "Welcome, Vladimir Timotijevic!")
 
     def test_sign_in_incorrect_data(self):
-        log = self.getLogger()
-        log.info("Testing sign-in with incorrect credentials begins.")
-
-        homePage = HomePage(self.driver)
-        homePage.sign_in()
-        self.driver.implicitly_wait(15)
-
-        logInPage = CustomerLogin(self.driver)
-        assert logInPage.page_title() == "Customer Login"
-        logInPage.email_log_in().send_keys(TestSignIn.INCORRECT_EMAIL)
-        logInPage.password_log_in().send_keys(TestSignIn.INCORRECT_PASSWORD)
-        logInPage.sing_in_button()
-        assert "The account sign-in was incorrect" in logInPage.alert_message()
-
-        log.info("Testing sign-in with incorrect credentials completed.")
+        self.perform_sign_in(TestSignIn.INCORRECT_EMAIL, TestSignIn.INCORRECT_PASSWORD)
 
 
 
