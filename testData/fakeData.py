@@ -50,3 +50,25 @@ class SignInPageData:
         return cls.test_signInPage_data[0]["incorrect_email"], cls.test_signInPage_data[0]["incorrect_password"]
 
 
+
+class CreateAccPageData:
+    # Lista sa test podacima za RegistrationPage
+    test_registrationPage_data = [
+        {
+            "existing_email": "vldmr@gmail.comm",
+            "new_first_name": "Mario",
+            "new_last_name": "Markis",
+            "new_password": "Sifra123",
+            "confirm_password": "Sifra123"
+        }
+
+    ]
+
+    @classmethod
+    def get_existing_user_data(cls):
+        return cls.test_registrationPage_data[0]["existing_email"]
+
+    @classmethod
+    def get_new_user_data(cls):
+        data = cls.test_registrationPage_data[0]
+        return data["new_first_name"], data["new_last_name"], data["new_password"], data["confirm_password"]
