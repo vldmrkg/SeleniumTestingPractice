@@ -19,7 +19,7 @@ def setup(request):
     screenshot_dir = r"C:\Screenshots"
 
     if browser_name == "chrome":
-        driver = webdriver.Chrome(executable_path="C:\\Program Files (x86)\\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path="C:\Program Files (x86)\\chromedriver.exe")
 
     elif browser_name == "opera":
         driver = webdriver.Opera(executable_path="C:\\Program Files (x86)\\operadriver.exe")

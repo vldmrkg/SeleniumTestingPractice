@@ -1,1088 +1,692 @@
-2023-12-30 17:31:51,004 - INFO - User registration testing begins.
-2023-12-30 17:31:52,203 - INFO - Filling out registration form.
-2023-12-30 17:31:54,709 - INFO - Registration form filled out successfully.
-2023-12-30 17:31:55,224 - INFO - Successful registration message found.
-2023-12-30 17:31:55,262 - INFO - Clicked on Sign Out button.
-2023-12-30 17:32:02,295 - INFO - User registration testing completed.
-2023-12-30 17:32:02,296 - INFO - User registration testing with existing email begins.
-2023-12-30 17:32:04,997 - INFO - Unsuccessful registration message found.
-2023-12-30 17:32:05,001 - INFO - User registration testing with existing email completed.
-2023-12-30 17:32:36,520 - INFO - User registration testing begins.
-2023-12-30 17:32:37,744 - INFO - Filling out registration form.
-2023-12-30 17:32:40,139 - INFO - Registration form filled out successfully.
-2023-12-30 17:32:40,662 - INFO - Successful registration message found.
-2023-12-30 17:32:40,700 - INFO - Clicked on Sign Out button.
-2023-12-30 17:32:47,752 - INFO - User registration testing completed.
-2023-12-30 17:32:47,753 - INFO - User registration testing with existing email begins.
-2023-12-30 17:32:50,462 - INFO - Unsuccessful registration message found.
-2023-12-30 17:32:50,466 - INFO - User registration testing with existing email completed.
-2023-12-30 17:33:37,193 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:33:39,550 - INFO - Hovered over Men products.
-2023-12-30 17:33:45,967 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:33:48,706 - INFO - Hovered over Men products.
-2023-12-30 17:33:48,971 - INFO - Hovered over Men Tops.
-2023-12-30 17:33:49,945 - INFO - Clicked on Men Jackets.
-2023-12-30 17:33:50,677 - INFO - Retrieving page title.
-2023-12-30 17:33:50,716 - INFO - Checking the price of the jacket.
-2023-12-30 17:33:50,772 - INFO - Selecting jacket size.
-2023-12-30 17:33:50,816 - INFO - Selecting jacket color.
-2023-12-30 17:33:50,849 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 17:33:50,886 - INFO - Verifying the success message after adding to cart.
-2023-12-30 17:33:52,487 - INFO - Clicking on the 'Cart' button.
-2023-12-30 17:33:52,521 - INFO - Clicking on the 'Delete' button.
-2023-12-30 17:33:52,755 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 17:33:53,302 - INFO - Verifying the message after removing the item.
-2023-12-30 17:33:54,509 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 17:33:54,509 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 17:47:13,051 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:47:15,759 - INFO - Hovered over Men products.
-2023-12-30 17:47:16,025 - INFO - Hovered over Men Tops.
-2023-12-30 17:47:16,966 - INFO - Clicked on Men Jackets.
-2023-12-30 17:47:17,684 - INFO - Retrieving page title.
-2023-12-30 17:47:17,722 - INFO - Checking the price of the jacket.
-2023-12-30 17:47:17,785 - INFO - Selecting jacket size.
-2023-12-30 17:47:17,827 - INFO - Selecting jacket color.
-2023-12-30 17:47:17,854 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 17:47:17,890 - INFO - Verifying the success message after adding to cart.
-2023-12-30 17:47:19,344 - INFO - Clicking on the 'Cart' button.
-2023-12-30 17:47:19,377 - INFO - Clicking on the 'Delete' button.
-2023-12-30 17:47:19,611 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 17:47:20,156 - INFO - Verifying the message after removing the item.
-2023-12-30 17:47:21,298 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 17:47:21,298 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 17:50:03,608 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:50:06,072 - INFO - Hovered over Men products.
-2023-12-30 17:50:06,340 - INFO - Hovered over Men Tops.
-2023-12-30 17:50:07,286 - INFO - Clicked on Men Jackets.
-2023-12-30 17:50:08,000 - INFO - Retrieving page title.
-2023-12-30 17:50:08,012 - INFO - Checking the price of the jacket.
-2023-12-30 17:50:08,020 - INFO - Selecting jacket size.
-2023-12-30 17:50:08,047 - INFO - Selecting jacket color.
-2023-12-30 17:50:08,090 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 17:50:08,125 - INFO - Verifying the success message after adding to cart.
-2023-12-30 17:50:09,783 - INFO - Clicking on the 'Cart' button.
-2023-12-30 17:50:09,817 - INFO - Clicking on the 'Delete' button.
-2023-12-30 17:50:10,044 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 17:50:10,599 - INFO - Verifying the message after removing the item.
-2023-12-30 17:50:11,799 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 17:50:11,800 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 17:53:46,591 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:53:49,326 - INFO - Hovered over Men products.
-2023-12-30 17:53:49,592 - INFO - Hovered over Men Tops.
-2023-12-30 17:53:50,591 - INFO - Clicked on Men Jackets.
-2023-12-30 17:53:51,334 - INFO - Retrieving page title.
-2023-12-30 17:53:51,366 - INFO - Checking the price of the jacket.
-2023-12-30 17:53:51,430 - INFO - Selecting jacket size.
-2023-12-30 17:53:51,471 - INFO - Selecting jacket color.
-2023-12-30 17:53:51,498 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 17:53:51,543 - INFO - Verifying the success message after adding to cart.
-2023-12-30 17:53:53,130 - INFO - Clicking on the 'Cart' button.
-2023-12-30 17:53:53,163 - INFO - Clicking on the 'Delete' button.
-2023-12-30 17:53:53,398 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 17:53:53,954 - INFO - Verifying the message after removing the item.
-2023-12-30 17:53:55,149 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 17:53:55,149 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 17:53:57,792 - INFO - User registration testing begins.
-2023-12-30 17:53:58,518 - INFO - Filling out registration form.
-2023-12-30 17:54:01,128 - INFO - Registration form filled out successfully.
-2023-12-30 17:54:01,655 - INFO - Successful registration message found.
-2023-12-30 17:54:01,695 - INFO - Clicked on Sign Out button.
-2023-12-30 17:54:08,766 - INFO - User registration testing completed.
-2023-12-30 17:54:08,767 - INFO - User registration testing with existing email begins.
-2023-12-30 17:54:11,322 - INFO - Unsuccessful registration message found.
-2023-12-30 17:54:11,326 - INFO - User registration testing with existing email completed.
-2023-12-30 17:54:13,958 - INFO - Testing sign-in with correct credentials begins.
-2023-12-30 17:54:17,108 - INFO - Clicked on Sign Out button.
-2023-12-30 17:54:18,110 - INFO - Testing sign-in with correct credentials completed.
-2023-12-30 17:54:18,111 - INFO - Testing sign-in with incorrect credentials begins.
-2023-12-30 17:54:20,257 - INFO - Testing sign-in with incorrect credentials completed.
-2023-12-30 17:54:22,962 - INFO - End-to-end test begins
-2023-12-30 17:54:23,967 - INFO - Performing search and selecting a product
-2023-12-30 17:54:24,001 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 17:54:24,794 - WARNING - No product found with search term: 'arg'.
-2023-12-30 17:54:24,794 - WARNING - No product found with search term: 'arg'.
-2023-12-30 17:54:25,530 - INFO - Selected product with search term: 'arg'.
-2023-12-30 17:54:25,530 - INFO - Performing actions on the search results page
-2023-12-30 17:54:25,669 - INFO - Clicked on size button.
-2023-12-30 17:54:25,705 - INFO - Clicked on color button.
-2023-12-30 17:54:25,743 - INFO - Clicked on add button.
-2023-12-30 17:54:27,309 - INFO - Clicked on cart button.
-2023-12-30 17:54:29,443 - INFO - Clicked on checkout button.
-2023-12-30 17:54:29,444 - INFO - Filling in delivery information
-2023-12-30 17:54:29,444 - INFO - Filling out shipping information.
-2023-12-30 17:54:31,667 - INFO - Shipping information filled out successfully.
-2023-12-30 17:54:31,696 - INFO - Placing the order
-2023-12-30 17:54:33,080 - INFO - Waiting for the success message to be present.
-2023-12-30 17:54:35,851 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 17:54:35,851 - INFO - Success message verified.
-2023-12-30 17:54:35,851 - INFO - End-to-end test completed
-2023-12-30 17:55:58,211 - INFO - Test starting: Adding product to the cart.
-2023-12-30 17:56:00,602 - INFO - Hovered over Men products.
-2023-12-30 17:56:00,867 - INFO - Hovered over Men Tops.
-2023-12-30 17:56:01,890 - INFO - Clicked on Men Jackets.
-2023-12-30 17:56:02,689 - INFO - Retrieving page title.
-2023-12-30 17:56:02,726 - INFO - Checking the price of the jacket.
-2023-12-30 17:56:02,784 - INFO - Selecting jacket size.
-2023-12-30 17:56:02,823 - INFO - Selecting jacket color.
-2023-12-30 17:56:02,857 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 17:56:02,896 - INFO - Verifying the success message after adding to cart.
-2023-12-30 17:56:04,476 - INFO - Clicking on the 'Cart' button.
-2023-12-30 17:56:04,508 - INFO - Clicking on the 'Delete' button.
-2023-12-30 17:56:04,732 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 17:56:05,285 - INFO - Verifying the message after removing the item.
-2023-12-30 17:56:06,602 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 17:56:06,602 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 17:56:09,195 - INFO - User registration testing begins.
-2023-12-30 17:56:09,903 - INFO - Filling out registration form.
-2023-12-30 17:56:12,418 - INFO - Registration form filled out successfully.
-2023-12-30 17:56:12,936 - INFO - Successful registration message found.
-2023-12-30 17:56:12,975 - INFO - Clicked on Sign Out button.
-2023-12-30 17:56:19,995 - INFO - User registration testing completed.
-2023-12-30 17:56:19,996 - INFO - User registration testing with existing email begins.
-2023-12-30 17:56:22,861 - INFO - Unsuccessful registration message found.
-2023-12-30 17:56:22,865 - INFO - User registration testing with existing email completed.
-2023-12-30 17:56:24,916 - INFO - Testing sign-in with correct credentials begins.
-2023-12-30 17:56:28,077 - INFO - Clicked on Sign Out button.
-2023-12-30 17:56:29,180 - INFO - Testing sign-in with correct credentials completed.
-2023-12-30 17:56:29,181 - INFO - Testing sign-in with incorrect credentials begins.
-2023-12-30 17:56:32,235 - INFO - Testing sign-in with incorrect credentials completed.
-2023-12-30 17:56:34,870 - INFO - End-to-end test begins
-2023-12-30 17:56:35,873 - INFO - Performing search and selecting a product
-2023-12-30 17:56:35,907 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 17:56:36,766 - WARNING - No product found with search term: 'arg'.
-2023-12-30 17:56:36,766 - WARNING - No product found with search term: 'arg'.
-2023-12-30 17:56:37,455 - INFO - Selected product with search term: 'arg'.
-2023-12-30 17:56:37,455 - INFO - Performing actions on the search results page
-2023-12-30 17:56:37,601 - INFO - Clicked on size button.
-2023-12-30 17:56:37,636 - INFO - Clicked on color button.
-2023-12-30 17:56:37,672 - INFO - Clicked on add button.
-2023-12-30 17:56:40,805 - INFO - Clicked on cart button.
-2023-12-30 17:56:42,986 - INFO - Clicked on checkout button.
-2023-12-30 17:56:42,986 - INFO - Filling in delivery information
-2023-12-30 17:56:42,986 - INFO - Filling out shipping information.
-2023-12-30 17:56:45,026 - INFO - Shipping information filled out successfully.
-2023-12-30 17:56:45,054 - INFO - Placing the order
-2023-12-30 17:56:46,690 - INFO - Waiting for the success message to be present.
-2023-12-30 17:56:49,989 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 17:56:49,989 - INFO - Success message verified.
-2023-12-30 17:56:49,989 - INFO - End-to-end test completed
-2023-12-30 18:06:05,921 - INFO - End-to-end test begins
-2023-12-30 18:06:06,925 - INFO - Performing search and selecting a product
-2023-12-30 18:06:06,962 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 18:06:07,880 - WARNING - No product found with search term: 'arg'.
-2023-12-30 18:06:08,623 - INFO - Selected product with search term: 'arg'.
-2023-12-30 18:06:08,624 - INFO - Performing actions on the search results page
-2023-12-30 18:06:08,762 - INFO - Clicked on size button.
-2023-12-30 18:06:08,798 - INFO - Clicked on color button.
-2023-12-30 18:06:08,833 - INFO - Clicked on add button.
-2023-12-30 18:06:10,908 - INFO - Clicked on cart button.
-2023-12-30 18:06:13,362 - INFO - Clicked on checkout button.
-2023-12-30 18:06:13,362 - INFO - Filling in delivery information
-2023-12-30 18:06:13,362 - INFO - Filling out shipping information.
-2023-12-30 18:06:15,524 - INFO - Shipping information filled out successfully.
-2023-12-30 18:06:15,553 - INFO - Placing the order
-2023-12-30 18:06:16,992 - INFO - Waiting for the success message to be present.
-2023-12-30 18:06:20,382 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 18:06:20,382 - INFO - Success message verified.
-2023-12-30 18:06:20,382 - INFO - End-to-end test completed
-2023-12-30 18:08:43,563 - INFO - End-to-end test begins
-2023-12-30 18:08:44,571 - INFO - Performing search and selecting a product
-2023-12-30 18:08:44,606 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 18:08:45,518 - WARNING - No product found with search term: 'arg'.
-2023-12-30 18:08:46,226 - INFO - Selected product with search term: 'arg'.
-2023-12-30 18:08:46,226 - INFO - Performing actions on the search results page
-2023-12-30 18:08:46,366 - INFO - Clicked on size button.
-2023-12-30 18:08:46,407 - INFO - Clicked on color button.
-2023-12-30 18:08:46,442 - INFO - Clicked on add button.
-2023-12-30 18:08:48,524 - INFO - Clicked on cart button.
-2023-12-30 18:08:50,845 - INFO - Clicked on checkout button.
-2023-12-30 18:08:50,845 - INFO - Filling in delivery information
-2023-12-30 18:08:50,845 - INFO - Filling out shipping information.
-2023-12-30 18:08:52,973 - INFO - Shipping information filled out successfully.
-2023-12-30 18:08:53,001 - INFO - Placing the order
-2023-12-30 18:08:54,516 - INFO - Waiting for the success message to be present.
-2023-12-30 18:08:58,221 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 18:08:58,221 - INFO - Success message verified.
-2023-12-30 18:08:58,221 - INFO - End-to-end test completed
-2023-12-30 19:07:42,722 - INFO - End-to-end test begins
-2023-12-30 19:07:43,731 - INFO - Performing search and selecting a product
-2023-12-30 19:07:43,766 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 19:07:43,772 - INFO - Performing actions on the search results page
-2023-12-30 19:07:43,824 - INFO - Clicked on size button.
-2023-12-30 19:07:43,870 - INFO - Clicked on color button.
-2023-12-30 19:07:51,125 - ERROR - Error clicking add button: Message: no such window: target window already closed
+2024-01-06 17:54:17,963 - INFO - User registration testing begins.
+2024-01-06 17:54:19,166 - INFO - Filling out registration form.
+2024-01-06 17:54:21,775 - INFO - Registration form filled out successfully.
+2024-01-06 17:54:22,293 - INFO - Successful registration message found.
+2024-01-06 17:54:22,330 - INFO - Clicked on Sign Out button.
+2024-01-06 17:54:29,358 - INFO - User registration testing completed.
+2024-01-06 17:54:29,360 - INFO - User registration testing with existing email begins.
+2024-01-06 17:54:32,005 - INFO - Unsuccessful registration message found.
+2024-01-06 17:54:32,008 - INFO - User registration testing with existing email completed.
+2024-01-06 18:02:58,685 - INFO - User registration testing begins.
+2024-01-06 18:02:59,890 - INFO - Filling out registration form.
+2024-01-06 18:03:02,472 - INFO - Registration form filled out successfully.
+2024-01-06 18:03:02,997 - INFO - Successful registration message found.
+2024-01-06 18:03:03,033 - INFO - Clicked on Sign Out button.
+2024-01-06 18:03:10,046 - INFO - User registration testing completed.
+2024-01-14 02:20:57,184 - INFO - User registration testing begins.
+2024-01-14 02:20:58,096 - INFO - Filling out registration form.
+2024-01-14 02:20:59,929 - INFO - Registration form filled out successfully.
+2024-01-14 02:21:22,131 - INFO - User registration testing begins.
+2024-01-14 02:21:23,676 - INFO - Filling out registration form.
+2024-01-14 02:21:26,507 - INFO - Registration form filled out successfully.
+2024-01-14 02:21:27,026 - INFO - Successful registration message found.
+2024-01-14 02:21:27,062 - INFO - Clicked on Sign Out button.
+2024-01-14 02:21:34,222 - INFO - User registration testing completed.
+2024-01-14 02:23:13,699 - INFO - User registration testing begins.
+2024-01-14 02:23:15,209 - INFO - Filling out registration form.
+2024-01-14 02:23:17,865 - INFO - Registration form filled out successfully.
+2024-01-14 02:23:18,386 - INFO - Successful registration message found.
+2024-01-14 02:23:18,423 - INFO - Clicked on Sign Out button.
+2024-01-14 02:23:25,570 - INFO - User registration testing completed.
+2024-01-14 02:24:35,476 - INFO - User registration testing with existing email begins.
+2024-01-14 02:24:39,044 - INFO - Unsuccessful registration message found.
+2024-01-14 02:24:39,051 - INFO - User registration testing with existing email completed.
+2024-01-18 12:07:34,291 - INFO - End-to-end test begins
+2024-01-18 12:07:35,300 - INFO - Performing search and selecting a product
+2024-01-18 12:07:35,334 - INFO - Entered search term: 'arg' in the search box.
+2024-01-18 12:07:36,256 - WARNING - No product found with search term: 'arg'.
+2024-01-18 12:07:37,466 - INFO - Selected product with search term: 'arg'.
+2024-01-18 12:07:37,467 - INFO - Performing actions on the search results page
+2024-01-18 12:07:37,603 - INFO - Clicked on size button.
+2024-01-18 12:07:37,639 - INFO - Clicked on color button.
+2024-01-18 12:07:38,964 - INFO - Clicked on add button.
+2024-01-18 12:08:09,096 - INFO - Clicked on cart button.
+2024-01-18 12:08:10,106 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2023-12-30 19:07:51,126 - ERROR - Error clicking cart button: Message: no such window: target window already closed
+2024-01-18 12:08:10,107 - INFO - Filling in delivery information
+2024-01-18 12:08:10,107 - INFO - Filling out shipping information.
+2024-01-18 12:08:17,094 - INFO - End-to-end test begins
+2024-01-18 12:08:18,100 - INFO - Performing search and selecting a product
+2024-01-18 12:08:18,133 - INFO - Entered search term: 'arg' in the search box.
+2024-01-18 12:08:18,993 - WARNING - No product found with search term: 'arg'.
+2024-01-18 12:08:19,743 - INFO - Selected product with search term: 'arg'.
+2024-01-18 12:08:19,743 - INFO - Performing actions on the search results page
+2024-01-18 12:08:19,888 - INFO - Clicked on size button.
+2024-01-18 12:08:19,928 - INFO - Clicked on color button.
+2024-01-18 12:08:21,268 - INFO - Clicked on add button.
+2024-01-18 12:08:22,354 - INFO - Clicked on cart button.
+2024-01-18 12:08:24,804 - INFO - Clicked on checkout button.
+2024-01-18 12:08:24,804 - INFO - Filling in delivery information
+2024-01-18 12:08:24,804 - INFO - Filling out shipping information.
+2024-01-18 12:08:29,034 - INFO - Shipping information filled out successfully.
+2024-01-18 12:08:29,061 - INFO - Placing the order
+2024-01-18 12:08:32,142 - INFO - Waiting for the success message to be present.
+2024-01-18 12:08:34,798 - INFO - Success message found: Thank you for your purchase!
+2024-01-18 12:08:34,798 - INFO - Success message verified.
+2024-01-18 12:08:34,798 - INFO - End-to-end test completed
+2024-01-18 12:08:58,872 - INFO - User registration testing begins.
+2024-01-18 12:09:00,133 - INFO - Filling out registration form.
+2024-01-18 12:09:02,783 - INFO - Registration form filled out successfully.
+2024-01-18 12:09:03,312 - INFO - Successful registration message found.
+2024-01-18 12:09:03,349 - INFO - Clicked on Sign Out button.
+2024-01-18 12:09:10,411 - INFO - User registration testing completed.
+2024-01-18 12:09:10,412 - INFO - User registration testing with existing email begins.
+2024-01-18 12:09:13,442 - INFO - Unsuccessful registration message found.
+2024-01-18 12:09:13,445 - INFO - User registration testing with existing email completed.
+2024-01-18 12:09:29,164 - INFO - Test starting: Adding product to the cart.
+2024-01-18 12:09:32,031 - INFO - Hovered over Men products.
+2024-01-18 12:10:01,429 - INFO - Test starting: Adding product to the cart.
+2024-01-18 12:10:04,465 - INFO - Hovered over Men products.
+2024-01-18 12:10:04,733 - INFO - Hovered over Men Tops.
+2024-01-18 12:10:06,148 - INFO - Clicked on Men Jackets.
+2024-01-18 12:10:06,161 - INFO - Page title: Jackets
+2024-01-18 12:10:06,172 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-18 12:10:09,435 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-18 12:10:09,435 - INFO - Retrieving page title.
+2024-01-18 12:10:09,444 - INFO - Checking the price of the jacket.
+2024-01-18 12:10:09,453 - INFO - Selecting jacket size.
+2024-01-18 12:10:09,479 - INFO - Selecting jacket color.
+2024-01-18 12:10:09,515 - INFO - Clicking on 'Add to Cart' button.
+2024-01-18 12:10:09,550 - INFO - Verifying the success message after adding to cart.
+2024-01-18 12:10:11,075 - INFO - Clicking on the 'Cart' button.
+2024-01-18 12:10:11,108 - INFO - Clicking on the 'Delete' button.
+2024-01-18 12:10:11,343 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-18 12:10:11,887 - INFO - Verifying the message after removing the item.
+2024-01-18 12:10:13,033 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-18 12:10:13,033 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-18 12:10:29,450 - INFO - User registration testing begins.
+2024-01-18 12:10:30,185 - INFO - Filling out registration form.
+2024-01-18 12:10:32,599 - INFO - Registration form filled out successfully.
+2024-01-18 12:10:33,128 - INFO - Successful registration message found.
+2024-01-18 12:10:33,167 - INFO - Clicked on Sign Out button.
+2024-01-18 12:10:40,183 - INFO - User registration testing completed.
+2024-01-18 12:10:40,184 - INFO - User registration testing with existing email begins.
+2024-01-18 12:10:42,730 - INFO - Unsuccessful registration message found.
+2024-01-18 12:10:42,733 - INFO - User registration testing with existing email completed.
+2024-01-18 12:10:54,988 - INFO - Testing sign-in with correct credentials begins.
+2024-01-18 12:10:58,386 - INFO - Clicked on Sign Out button.
+2024-01-18 12:10:59,491 - INFO - Testing sign-in with correct credentials completed.
+2024-01-18 12:10:59,493 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-18 12:11:01,734 - INFO - Testing sign-in with incorrect credentials completed.
+2024-01-18 14:47:30,926 - INFO - End-to-end test begins
+2024-01-18 14:47:31,933 - INFO - Performing search and selecting a product
+2024-01-18 14:47:31,967 - INFO - Entered search term: 'arg' in the search box.
+2024-01-18 14:47:32,892 - WARNING - No product found with search term: 'arg'.
+2024-01-18 14:47:33,614 - INFO - Selected product with search term: 'arg'.
+2024-01-18 14:47:33,614 - INFO - Performing actions on the search results page
+2024-01-18 14:47:33,763 - INFO - Clicked on size button.
+2024-01-18 14:47:33,804 - INFO - Clicked on color button.
+2024-01-18 14:47:33,840 - INFO - Clicked on add button.
+2024-01-18 14:47:35,388 - INFO - Clicked on cart button.
+2024-01-18 14:47:37,618 - INFO - Clicked on checkout button.
+2024-01-18 14:47:37,618 - INFO - Filling in delivery information
+2024-01-18 14:47:37,618 - INFO - Filling out shipping information.
+2024-01-18 14:47:39,751 - INFO - Shipping information filled out successfully.
+2024-01-18 14:47:39,779 - INFO - Placing the order
+2024-01-18 14:47:41,353 - INFO - Waiting for the success message to be present.
+2024-01-18 14:47:44,987 - INFO - Success message found: Thank you for your purchase!
+2024-01-18 14:47:44,987 - INFO - Success message verified.
+2024-01-18 14:47:44,988 - INFO - End-to-end test completed
+2024-01-26 16:38:48,639 - INFO - User registration testing begins.
+2024-01-26 16:38:49,430 - INFO - Filling out registration form.
+2024-01-26 16:38:53,529 - INFO - Registration form filled out successfully.
+2024-01-26 16:38:54,043 - INFO - Successful registration message found.
+2024-01-26 16:38:54,082 - INFO - Clicked on Sign Out button.
+2024-01-26 16:39:01,666 - INFO - User registration testing completed.
+2024-01-26 16:39:01,667 - INFO - User registration testing with existing email begins.
+2024-01-26 16:39:05,322 - INFO - Unsuccessful registration message found.
+2024-01-26 16:39:05,326 - INFO - User registration testing with existing email completed.
+2024-01-26 16:39:21,174 - INFO - End-to-end test begins
+2024-01-26 16:39:22,179 - INFO - Performing search and selecting a product
+2024-01-26 16:39:22,214 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 16:39:27,523 - INFO - Performing actions on the search results page
+2024-01-26 16:39:27,524 - ERROR - Error clicking size button: Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2023-12-30 19:07:51,128 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
+2024-01-26 16:39:27,525 - ERROR - Error clicking color button: Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2023-12-30 19:07:51,128 - INFO - Filling in delivery information
-2023-12-30 19:07:51,128 - INFO - Filling out shipping information.
-2023-12-30 19:21:19,860 - INFO - End-to-end test begins
-2023-12-30 19:21:20,866 - INFO - Performing search and selecting a product
-2023-12-30 19:21:20,901 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 19:21:21,761 - WARNING - No product found with search term: 'arg'.
-2023-12-30 19:21:22,466 - INFO - Selected product with search term: 'arg'.
-2023-12-30 19:21:22,466 - INFO - Performing actions on the search results page
-2023-12-30 19:21:22,617 - INFO - Clicked on size button.
-2023-12-30 19:21:22,652 - INFO - Clicked on color button.
-2023-12-30 19:21:22,689 - INFO - Clicked on add button.
-2023-12-30 19:21:24,250 - INFO - Clicked on cart button.
-2023-12-30 19:21:24,276 - INFO - Clicked on checkout button.
-2023-12-30 19:21:24,276 - INFO - Filling in delivery information
-2023-12-30 19:21:24,276 - INFO - Filling out shipping information.
-2023-12-30 19:37:58,328 - INFO - End-to-end test begins
-2023-12-30 19:37:59,338 - INFO - Performing search and selecting a product
-2023-12-30 19:37:59,374 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 19:38:00,411 - WARNING - No product found with search term: 'arg'.
-2023-12-30 19:38:01,973 - INFO - Selected product with search term: 'arg'.
-2023-12-30 19:38:01,973 - INFO - Performing actions on the search results page
-2023-12-30 19:38:02,108 - INFO - Clicked on size button.
-2023-12-30 19:38:02,147 - INFO - Clicked on color button.
-2023-12-30 19:38:02,182 - INFO - Clicked on add button.
-2023-12-30 19:38:03,759 - INFO - Clicked on cart button.
-2023-12-30 19:38:06,001 - INFO - Clicked on checkout button.
-2023-12-30 19:38:06,002 - INFO - Filling in delivery information
-2023-12-30 19:38:06,002 - INFO - Filling out shipping information.
-2023-12-30 19:38:08,167 - INFO - Shipping information filled out successfully.
-2023-12-30 19:38:08,195 - INFO - Placing the order
-2023-12-30 19:38:09,822 - INFO - Waiting for the success message to be present.
-2023-12-30 19:38:13,319 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 19:38:13,319 - INFO - Success message verified.
-2023-12-30 19:38:13,319 - INFO - End-to-end test completed
-2023-12-30 20:01:40,779 - INFO - User registration testing begins.
-2023-12-30 20:02:59,582 - INFO - User registration testing begins.
-2023-12-30 20:02:59,653 - INFO - User registration testing with existing email begins.
-2023-12-30 20:03:02,557 - INFO - Unsuccessful registration message found.
-2023-12-30 20:03:02,564 - INFO - User registration testing with existing email completed.
-2023-12-30 20:03:08,473 - INFO - User registration testing begins.
-2023-12-30 20:04:12,709 - INFO - User registration testing begins.
-2023-12-30 20:08:30,721 - INFO - User registration testing begins.
-2023-12-30 20:08:30,786 - INFO - User registration testing with existing email begins.
-2023-12-30 20:08:33,614 - INFO - Unsuccessful registration message found.
-2023-12-30 20:08:33,621 - INFO - User registration testing with existing email completed.
-2023-12-30 20:08:39,182 - INFO - User registration testing begins.
-2023-12-30 20:09:18,438 - INFO - User registration testing begins.
-2023-12-30 20:09:19,619 - INFO - Filling out registration form.
-2023-12-30 20:09:22,150 - INFO - Registration form filled out successfully.
-2023-12-30 20:09:22,676 - INFO - Successful registration message found.
-2023-12-30 20:09:22,715 - INFO - Clicked on Sign Out button.
-2023-12-30 20:09:29,776 - INFO - User registration testing completed.
-2023-12-30 20:09:29,777 - INFO - User registration testing with existing email begins.
-2023-12-30 20:09:32,565 - INFO - Unsuccessful registration message found.
-2023-12-30 20:09:32,569 - INFO - User registration testing with existing email completed.
-2023-12-30 20:18:33,312 - INFO - Test starting: Adding product to the cart.
-2023-12-30 20:18:36,031 - INFO - Hovered over Men products.
-2023-12-30 20:18:36,295 - INFO - Hovered over Men Tops.
-2023-12-30 20:18:38,427 - INFO - Clicked on Men Jackets.
-2023-12-30 20:18:40,037 - INFO - Retrieving page title.
-2023-12-30 20:18:40,073 - INFO - Checking the price of the jacket.
-2023-12-30 20:18:40,118 - INFO - Selecting jacket size.
-2023-12-30 20:18:40,175 - INFO - Selecting jacket color.
-2023-12-30 20:18:40,201 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 20:18:40,235 - INFO - Verifying the success message after adding to cart.
-2023-12-30 20:18:41,753 - INFO - Clicking on the 'Cart' button.
-2023-12-30 20:18:41,786 - INFO - Clicking on the 'Delete' button.
-2023-12-30 20:18:41,953 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 20:18:42,511 - INFO - Verifying the message after removing the item.
-2023-12-30 20:18:43,644 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 20:18:43,644 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 20:23:50,574 - INFO - Test starting: Adding product to the cart.
-2023-12-30 20:23:52,996 - INFO - Hovered over Men products.
-2023-12-30 20:23:53,263 - INFO - Hovered over Men Tops.
-2023-12-30 20:23:54,201 - INFO - Clicked on Men Jackets.
-2023-12-30 20:23:54,214 - INFO - Page title: Jackets
-2023-12-30 20:23:54,225 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2023-12-30 20:23:54,922 - INFO - Retrieving page title.
-2023-12-30 20:23:54,955 - INFO - Checking the price of the jacket.
-2023-12-30 20:23:54,995 - INFO - Selecting jacket size.
-2023-12-30 20:23:55,062 - INFO - Selecting jacket color.
-2023-12-30 20:23:55,093 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 20:23:55,129 - INFO - Verifying the success message after adding to cart.
-2023-12-30 20:23:56,582 - INFO - Clicking on the 'Cart' button.
-2023-12-30 20:23:56,614 - INFO - Clicking on the 'Delete' button.
-2023-12-30 20:23:56,845 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 20:23:57,395 - INFO - Verifying the message after removing the item.
-2023-12-30 20:23:58,591 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 20:23:58,592 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 20:34:52,925 - INFO - End-to-end test begins
-2023-12-30 20:34:53,931 - INFO - Performing search and selecting a product
-2023-12-30 20:34:53,966 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 20:34:54,754 - WARNING - No product found with search term: 'arg'.
-2023-12-30 20:34:55,405 - INFO - Selected product with search term: 'arg'.
-2023-12-30 20:34:55,405 - INFO - Performing actions on the search results page
-2023-12-30 20:34:55,546 - INFO - Clicked on size button.
-2023-12-30 20:34:55,582 - INFO - Clicked on color button.
-2023-12-30 20:34:55,619 - INFO - Clicked on add button.
-2023-12-30 20:34:57,187 - INFO - Clicked on cart button.
-2023-12-30 20:34:59,320 - INFO - Clicked on checkout button.
-2023-12-30 20:34:59,321 - INFO - Filling in delivery information
-2023-12-30 20:34:59,321 - INFO - Filling out shipping information.
-2023-12-30 20:35:01,710 - INFO - Shipping information filled out successfully.
-2023-12-30 20:35:01,739 - INFO - Placing the order
-2023-12-30 20:35:03,085 - INFO - Waiting for the success message to be present.
-2023-12-30 20:35:05,634 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 20:35:05,634 - INFO - Success message verified.
-2023-12-30 20:35:05,634 - INFO - End-to-end test completed
-2023-12-30 20:48:16,079 - INFO - User registration testing begins.
-2023-12-30 20:48:16,798 - INFO - Filling out registration form.
-2023-12-30 20:48:19,431 - INFO - Registration form filled out successfully.
-2023-12-30 20:48:19,968 - INFO - Successful registration message found.
-2023-12-30 20:48:20,008 - INFO - Clicked on Sign Out button.
-2023-12-30 20:48:27,055 - INFO - User registration testing completed.
-2023-12-30 20:48:27,056 - INFO - User registration testing with existing email begins.
-2023-12-30 20:48:29,743 - INFO - Unsuccessful registration message found.
-2023-12-30 20:48:29,747 - INFO - User registration testing with existing email completed.
-2023-12-30 20:51:17,975 - INFO - User registration testing with existing email begins.
-2023-12-30 20:51:20,796 - INFO - Unsuccessful registration message found.
-2023-12-30 20:51:20,803 - INFO - User registration testing with existing email completed.
-2023-12-30 20:52:09,275 - INFO - User registration testing begins.
-2023-12-30 20:52:09,970 - INFO - Filling out registration form.
-2023-12-30 20:52:12,423 - INFO - Registration form filled out successfully.
-2023-12-30 20:52:12,952 - INFO - Successful registration message found.
-2023-12-30 20:52:12,991 - INFO - Clicked on Sign Out button.
-2023-12-30 20:52:19,937 - INFO - User registration testing completed.
-2023-12-30 20:52:19,939 - INFO - User registration testing with existing email begins.
-2023-12-30 20:52:22,562 - INFO - Unsuccessful registration message found.
-2023-12-30 20:52:22,566 - INFO - User registration testing with existing email completed.
-2023-12-30 20:53:09,743 - INFO - User registration testing begins.
-2023-12-30 20:53:10,460 - INFO - Filling out registration form.
-2023-12-30 20:53:12,857 - INFO - Registration form filled out successfully.
-2023-12-30 20:53:13,378 - INFO - Successful registration message found.
-2023-12-30 20:53:13,416 - INFO - Clicked on Sign Out button.
-2023-12-30 20:53:20,370 - INFO - User registration testing completed.
-2023-12-30 20:53:20,371 - INFO - User registration testing with existing email begins.
-2023-12-30 20:53:23,028 - INFO - Unsuccessful registration message found.
-2023-12-30 20:53:23,032 - INFO - User registration testing with existing email completed.
-2023-12-30 21:34:13,592 - INFO - User registration testing begins.
-2023-12-30 21:34:14,452 - INFO - Filling out registration form.
-2023-12-30 21:34:17,106 - INFO - Registration form filled out successfully.
-2023-12-30 21:34:17,629 - INFO - Successful registration message found.
-2023-12-30 21:34:17,667 - INFO - Clicked on Sign Out button.
-2023-12-30 21:34:24,897 - INFO - User registration testing completed.
-2023-12-30 21:34:24,898 - INFO - User registration testing with existing email begins.
-2023-12-30 21:34:27,670 - INFO - Unsuccessful registration message found.
-2023-12-30 21:34:27,674 - INFO - User registration testing with existing email completed.
-2023-12-30 21:36:46,348 - INFO - End-to-end test begins
-2023-12-30 21:36:47,357 - INFO - Performing search and selecting a product
-2023-12-30 21:36:47,392 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 21:36:48,247 - WARNING - No product found with search term: 'arg'.
-2023-12-30 21:36:48,969 - INFO - Selected product with search term: 'arg'.
-2023-12-30 21:36:48,969 - INFO - Performing actions on the search results page
-2023-12-30 21:36:49,125 - INFO - Clicked on size button.
-2023-12-30 21:36:49,161 - INFO - Clicked on color button.
-2023-12-30 21:36:49,203 - INFO - Clicked on add button.
-2023-12-30 21:36:55,673 - ERROR - Error clicking cart button: Message: disconnected: unable to send message to renderer
+2024-01-26 16:39:27,525 - ERROR - Error clicking add button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 16:39:27,526 - ERROR - Error clicking cart button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 16:39:27,526 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 16:39:27,526 - INFO - Filling in delivery information
+2024-01-26 16:39:27,526 - INFO - Filling out shipping information.
+2024-01-26 16:39:43,897 - INFO - End-to-end test begins
+2024-01-26 16:39:44,906 - INFO - Performing search and selecting a product
+2024-01-26 16:39:44,943 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 16:39:45,920 - WARNING - No product found with search term: 'arg'.
+2024-01-26 16:39:47,138 - INFO - Selected product with search term: 'arg'.
+2024-01-26 16:39:47,138 - INFO - Performing actions on the search results page
+2024-01-26 16:39:47,280 - INFO - Clicked on size button.
+2024-01-26 16:39:47,322 - INFO - Clicked on color button.
+2024-01-26 16:39:47,360 - INFO - Clicked on add button.
+2024-01-26 16:40:18,925 - ERROR - Error clicking cart button: Message: element not interactable
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 16:40:49,473 - ERROR - Error clicking checkout button: Message: Checkout button not visible within 30 seconds.
+
+2024-01-26 16:40:49,473 - INFO - Filling in delivery information
+2024-01-26 16:40:49,473 - INFO - Filling out shipping information.
+2024-01-26 16:41:38,525 - INFO - End-to-end test begins
+2024-01-26 16:41:39,532 - INFO - Performing search and selecting a product
+2024-01-26 16:41:39,568 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 16:41:40,484 - WARNING - No product found with search term: 'arg'.
+2024-01-26 16:41:41,214 - INFO - Selected product with search term: 'arg'.
+2024-01-26 16:41:41,214 - INFO - Performing actions on the search results page
+2024-01-26 16:41:41,358 - INFO - Clicked on size button.
+2024-01-26 16:41:41,400 - INFO - Clicked on color button.
+2024-01-26 16:41:41,435 - INFO - Clicked on add button.
+2024-01-26 16:41:43,484 - INFO - Clicked on cart button.
+2024-01-26 16:41:45,878 - INFO - Clicked on checkout button.
+2024-01-26 16:41:45,878 - INFO - Filling in delivery information
+2024-01-26 16:41:45,878 - INFO - Filling out shipping information.
+2024-01-26 16:41:49,863 - INFO - Shipping information filled out successfully.
+2024-01-26 16:41:49,892 - INFO - Placing the order
+2024-01-26 16:41:53,048 - INFO - Waiting for the success message to be present.
+2024-01-26 16:41:56,237 - INFO - Success message found: Thank you for your purchase!
+2024-01-26 16:41:56,238 - INFO - Success message verified.
+2024-01-26 16:41:56,238 - INFO - End-to-end test completed
+2024-01-26 16:43:03,299 - INFO - Test starting: Adding product to the cart.
+2024-01-26 16:43:05,798 - INFO - Hovered over Men products.
+2024-01-26 16:43:06,065 - INFO - Hovered over Men Tops.
+2024-01-26 16:43:07,014 - INFO - Clicked on Men Jackets.
+2024-01-26 16:43:07,028 - INFO - Page title: Jackets
+2024-01-26 16:43:07,039 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-26 16:43:10,328 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-26 16:43:10,330 - INFO - Retrieving page title.
+2024-01-26 16:43:10,339 - INFO - Checking the price of the jacket.
+2024-01-26 16:43:10,348 - INFO - Selecting jacket size.
+2024-01-26 16:43:10,374 - INFO - Selecting jacket color.
+2024-01-26 16:43:10,405 - INFO - Clicking on 'Add to Cart' button.
+2024-01-26 16:43:10,441 - INFO - Verifying the success message after adding to cart.
+2024-01-26 16:43:12,093 - INFO - Clicking on the 'Cart' button.
+2024-01-26 16:43:12,126 - INFO - Clicking on the 'Delete' button.
+2024-01-26 16:43:12,359 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-26 16:43:12,915 - INFO - Verifying the message after removing the item.
+2024-01-26 16:43:14,130 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-26 16:43:14,130 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-26 16:45:52,015 - INFO - Testing sign-in with correct credentials begins.
+2024-01-26 16:45:55,278 - INFO - Clicked on Sign Out button.
+2024-01-26 16:45:56,352 - INFO - Testing sign-in with correct credentials completed.
+2024-01-26 16:45:56,354 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-26 16:45:58,517 - INFO - Testing sign-in with incorrect credentials completed.
+2024-01-26 19:57:55,206 - INFO - End-to-end test begins
+2024-01-26 19:57:56,213 - INFO - Performing search and selecting a product
+2024-01-26 19:57:56,255 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - WARNING - No product found with search term: 'arg'.
+2024-01-26 19:57:57,126 - INFO - Performing actions on the search results page
+2024-01-26 19:57:57,165 - INFO - Clicked on size button.
+2024-01-26 19:57:57,207 - INFO - Clicked on color button.
+2024-01-26 19:58:27,405 - ERROR - Error clicking add button: Message: Add button not clickable within 20 seconds.
+
+2024-01-26 19:58:57,427 - ERROR - Error clicking cart button: Message: element not interactable
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 19:59:27,990 - ERROR - Error clicking checkout button: Message: Checkout button not visible within 30 seconds.
+
+2024-01-26 19:59:27,990 - INFO - Filling in delivery information
+2024-01-26 19:59:27,990 - INFO - Filling out shipping information.
+2024-01-26 19:59:58,508 - ERROR - TimeoutException occurred while filling out shipping information.
+2024-01-26 19:59:58,508 - INFO - Placing the order
+2024-01-26 20:02:18,108 - INFO - End-to-end test begins
+2024-01-26 20:02:19,115 - INFO - Performing search and selecting a product
+2024-01-26 20:02:19,150 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:02:20,328 - WARNING - No product found with search term: 'arg'.
+2024-01-26 20:02:21,239 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:02:21,239 - INFO - Performing actions on the search results page
+2024-01-26 20:02:21,382 - INFO - Clicked on size button.
+2024-01-26 20:02:21,422 - INFO - Clicked on color button.
+2024-01-26 20:02:25,616 - INFO - Clicked on add button.
+2024-01-26 20:02:28,219 - INFO - Clicked on cart button.
+2024-01-26 20:02:29,248 - INFO - Clicked on checkout button.
+2024-01-26 20:02:29,248 - INFO - Filling in delivery information
+2024-01-26 20:02:29,248 - INFO - Filling out shipping information.
+2024-01-26 20:02:59,822 - ERROR - TimeoutException occurred while filling out shipping information.
+2024-01-26 20:02:59,822 - INFO - Placing the order
+2024-01-26 20:05:00,589 - INFO - Testing sign-in with correct credentials begins.
+2024-01-26 20:05:04,756 - INFO - Clicked on Sign Out button.
+2024-01-26 20:05:05,981 - INFO - Testing sign-in with correct credentials completed.
+2024-01-26 20:05:14,281 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-26 20:05:16,809 - INFO - Testing sign-in with incorrect credentials completed.
+2024-01-26 20:05:50,054 - INFO - User registration testing begins.
+2024-01-26 20:05:51,148 - INFO - Filling out registration form.
+2024-01-26 20:05:54,291 - INFO - Registration form filled out successfully.
+2024-01-26 20:05:54,807 - INFO - Successful registration message found.
+2024-01-26 20:05:54,844 - INFO - Clicked on Sign Out button.
+2024-01-26 20:06:01,993 - INFO - User registration testing completed.
+2024-01-26 20:06:01,994 - INFO - User registration testing with existing email begins.
+2024-01-26 20:06:04,744 - INFO - Unsuccessful registration message found.
+2024-01-26 20:06:04,749 - INFO - User registration testing with existing email completed.
+2024-01-26 20:06:39,576 - INFO - Test starting: Adding product to the cart.
+2024-01-26 20:06:43,616 - INFO - Hovered over Men products.
+2024-01-26 20:06:43,886 - INFO - Hovered over Men Tops.
+2024-01-26 20:06:47,995 - INFO - Clicked on Men Jackets.
+2024-01-26 20:06:48,007 - INFO - Page title: Jackets
+2024-01-26 20:06:48,018 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-26 20:06:58,291 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-26 20:06:58,291 - INFO - Retrieving page title.
+2024-01-26 20:06:58,302 - INFO - Checking the price of the jacket.
+2024-01-26 20:06:58,309 - INFO - Selecting jacket size.
+2024-01-26 20:06:58,335 - INFO - Selecting jacket color.
+2024-01-26 20:06:58,359 - INFO - Clicking on 'Add to Cart' button.
+2024-01-26 20:06:58,394 - INFO - Verifying the success message after adding to cart.
+2024-01-26 20:07:00,883 - INFO - Clicking on the 'Cart' button.
+2024-01-26 20:07:00,917 - INFO - Clicking on the 'Delete' button.
+2024-01-26 20:07:01,151 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-26 20:07:01,697 - INFO - Verifying the message after removing the item.
+2024-01-26 20:07:03,025 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-26 20:07:03,026 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-26 20:07:14,129 - INFO - End-to-end test begins
+2024-01-26 20:07:15,134 - INFO - Performing search and selecting a product
+2024-01-26 20:07:15,173 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:07:16,045 - WARNING - No product found with search term: 'arg'.
+2024-01-26 20:07:17,095 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:07:17,095 - INFO - Performing actions on the search results page
+2024-01-26 20:07:17,130 - INFO - Clicked on size button.
+2024-01-26 20:07:17,163 - INFO - Clicked on color button.
+2024-01-26 20:07:17,198 - INFO - Clicked on add button.
+2024-01-26 20:07:20,270 - INFO - Clicked on cart button.
+2024-01-26 20:07:24,746 - INFO - Clicked on checkout button.
+2024-01-26 20:07:24,746 - INFO - Filling in delivery information
+2024-01-26 20:07:24,746 - INFO - Filling out shipping information.
+2024-01-26 20:07:35,939 - INFO - Shipping information filled out successfully.
+2024-01-26 20:07:35,967 - INFO - Placing the order
+2024-01-26 20:07:38,061 - INFO - Waiting for the success message to be present.
+2024-01-26 20:07:43,578 - INFO - Success message found: Thank you for your purchase!
+2024-01-26 20:07:43,578 - INFO - Success message verified.
+2024-01-26 20:07:43,579 - INFO - End-to-end test completed
+2024-01-26 20:10:05,855 - INFO - End-to-end test begins
+2024-01-26 20:10:06,859 - INFO - Performing search and selecting a product
+2024-01-26 20:10:06,892 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:10:14,270 - INFO - Performing actions on the search results page
+2024-01-26 20:10:14,272 - ERROR - Error clicking size button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 20:10:14,273 - ERROR - Error clicking color button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 20:10:14,273 - ERROR - Error clicking add button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 20:10:14,274 - ERROR - Error clicking cart button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 20:10:14,275 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+
+2024-01-26 20:10:14,275 - INFO - Filling in delivery information
+2024-01-26 20:10:14,275 - INFO - Filling out shipping information.
+2024-01-26 20:10:23,872 - INFO - End-to-end test begins
+2024-01-26 20:10:24,878 - INFO - Performing search and selecting a product
+2024-01-26 20:10:24,912 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:10:25,831 - ERROR - No product found with search term: 'arg'.
+2024-01-26 20:10:26,807 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:10:26,807 - INFO - Performing actions on the search results page
+2024-01-26 20:10:26,958 - INFO - Clicked on size button.
+2024-01-26 20:10:26,999 - INFO - Clicked on color button.
+2024-01-26 20:10:28,744 - INFO - Clicked on add button.
+2024-01-26 20:10:30,326 - INFO - Clicked on cart button.
+2024-01-26 20:10:32,653 - INFO - Clicked on checkout button.
+2024-01-26 20:10:32,653 - INFO - Filling in delivery information
+2024-01-26 20:10:32,653 - INFO - Filling out shipping information.
+2024-01-26 20:10:35,262 - INFO - Shipping information filled out successfully.
+2024-01-26 20:10:35,290 - INFO - Placing the order
+2024-01-26 20:10:37,132 - INFO - Waiting for the success message to be present.
+2024-01-26 20:10:40,441 - INFO - Success message found: Thank you for your purchase!
+2024-01-26 20:10:40,441 - INFO - Success message verified.
+2024-01-26 20:10:40,441 - INFO - End-to-end test completed
+2024-01-26 20:11:52,116 - INFO - End-to-end test begins
+2024-01-26 20:11:53,121 - INFO - Performing search and selecting a product
+2024-01-26 20:11:53,156 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:11:54,451 - ERROR - No product found with search term: 'arg'.
+2024-01-26 20:11:54,451 - ERROR - No product found with search term: 'arg'.
+2024-01-26 20:11:55,624 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:11:55,624 - INFO - Performing actions on the search results page
+2024-01-26 20:11:55,658 - INFO - Clicked on size button.
+2024-01-26 20:11:55,690 - INFO - Clicked on color button.
+2024-01-26 20:11:55,726 - INFO - Clicked on add button.
+2024-01-26 20:12:05,847 - ERROR - Error clicking cart button: Message: disconnected: unable to send message to renderer
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2023-12-30 21:36:55,678 - ERROR - Error clicking checkout button: Message: disconnected: not connected to DevTools
+2024-01-26 20:12:05,857 - ERROR - Error clicking checkout button: Message: disconnected: not connected to DevTools
   (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2023-12-30 21:36:55,678 - INFO - Filling in delivery information
-2023-12-30 21:36:55,678 - INFO - Filling out shipping information.
-2023-12-30 21:37:02,120 - INFO - End-to-end test begins
-2023-12-30 21:37:03,136 - INFO - Performing search and selecting a product
-2023-12-30 21:37:03,172 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 21:37:04,085 - WARNING - No product found with search term: 'arg'.
-2023-12-30 21:37:04,821 - INFO - Selected product with search term: 'arg'.
-2023-12-30 21:37:04,821 - INFO - Performing actions on the search results page
-2023-12-30 21:37:04,975 - INFO - Clicked on size button.
-2023-12-30 21:37:05,011 - INFO - Clicked on color button.
-2023-12-30 21:37:05,047 - INFO - Clicked on add button.
-2023-12-30 21:37:06,600 - INFO - Clicked on cart button.
-2023-12-30 21:37:08,831 - INFO - Clicked on checkout button.
-2023-12-30 21:37:08,831 - INFO - Filling in delivery information
-2023-12-30 21:37:08,832 - INFO - Filling out shipping information.
-2023-12-30 21:37:11,127 - INFO - Shipping information filled out successfully.
-2023-12-30 21:37:11,155 - INFO - Placing the order
-2023-12-30 21:37:12,650 - INFO - Waiting for the success message to be present.
-2023-12-30 21:37:16,438 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 21:37:16,438 - INFO - Success message verified.
-2023-12-30 21:37:16,438 - INFO - End-to-end test completed
-2023-12-30 21:38:26,264 - INFO - Test starting: Adding product to the cart.
-2023-12-30 21:38:28,964 - INFO - Hovered over Men products.
-2023-12-30 21:38:29,242 - INFO - Hovered over Men Tops.
-2023-12-30 21:38:30,195 - INFO - Clicked on Men Jackets.
-2023-12-30 21:38:30,208 - INFO - Page title: Jackets
-2023-12-30 21:38:30,219 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2023-12-30 21:38:30,876 - INFO - Retrieving page title.
-2023-12-30 21:38:30,914 - INFO - Checking the price of the jacket.
-2023-12-30 21:38:30,969 - INFO - Selecting jacket size.
-2023-12-30 21:38:31,015 - INFO - Selecting jacket color.
-2023-12-30 21:38:31,046 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 21:38:31,083 - INFO - Verifying the success message after adding to cart.
-2023-12-30 21:38:32,465 - INFO - Clicking on the 'Cart' button.
-2023-12-30 21:38:32,497 - INFO - Clicking on the 'Delete' button.
-2023-12-30 21:38:32,730 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 21:38:33,283 - INFO - Verifying the message after removing the item.
-2023-12-30 21:38:34,363 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 21:38:34,363 - INFO - Test finished: Product added to the cart and removed from the cart.
-2023-12-30 21:38:37,081 - INFO - User registration testing begins.
-2023-12-30 21:38:38,234 - INFO - Filling out registration form.
-2023-12-30 21:38:40,692 - INFO - Registration form filled out successfully.
-2023-12-30 21:38:41,208 - INFO - Successful registration message found.
-2023-12-30 21:38:41,247 - INFO - Clicked on Sign Out button.
-2023-12-30 21:38:48,262 - INFO - User registration testing completed.
-2023-12-30 21:38:48,263 - INFO - User registration testing with existing email begins.
-2023-12-30 21:38:50,828 - INFO - Unsuccessful registration message found.
-2023-12-30 21:38:50,833 - INFO - User registration testing with existing email completed.
-2023-12-30 21:38:52,999 - INFO - Testing sign-in with correct credentials begins.
-2023-12-30 21:38:56,046 - INFO - Clicked on Sign Out button.
-2023-12-30 21:38:57,008 - INFO - Testing sign-in with correct credentials completed.
-2023-12-30 21:38:57,010 - INFO - Testing sign-in with incorrect credentials begins.
-2023-12-30 21:38:59,006 - INFO - Testing sign-in with incorrect credentials completed.
-2023-12-30 21:39:01,122 - INFO - End-to-end test begins
-2023-12-30 21:39:02,128 - INFO - Performing search and selecting a product
-2023-12-30 21:39:02,162 - INFO - Entered search term: 'arg' in the search box.
-2023-12-30 21:39:03,016 - WARNING - No product found with search term: 'arg'.
-2023-12-30 21:39:03,534 - INFO - Selected product with search term: 'arg'.
-2023-12-30 21:39:03,534 - INFO - Performing actions on the search results page
-2023-12-30 21:39:03,672 - INFO - Clicked on size button.
-2023-12-30 21:39:03,714 - INFO - Clicked on color button.
-2023-12-30 21:39:03,750 - INFO - Clicked on add button.
-2023-12-30 21:39:05,323 - INFO - Clicked on cart button.
-2023-12-30 21:39:07,455 - INFO - Clicked on checkout button.
-2023-12-30 21:39:07,455 - INFO - Filling in delivery information
-2023-12-30 21:39:07,455 - INFO - Filling out shipping information.
-2023-12-30 21:39:09,459 - INFO - Shipping information filled out successfully.
-2023-12-30 21:39:09,488 - INFO - Placing the order
-2023-12-30 21:39:11,055 - INFO - Waiting for the success message to be present.
-2023-12-30 21:39:13,782 - INFO - Success message found: Thank you for your purchase!
-2023-12-30 21:39:13,782 - INFO - Success message verified.
-2023-12-30 21:39:13,782 - INFO - End-to-end test completed
-2023-12-30 21:41:59,416 - INFO - User registration testing begins.
-2023-12-30 21:42:00,128 - INFO - Filling out registration form.
-2023-12-30 21:42:02,902 - INFO - Registration form filled out successfully.
-2023-12-30 21:42:03,435 - INFO - Successful registration message found.
-2023-12-30 21:42:03,475 - INFO - Clicked on Sign Out button.
-2023-12-30 21:42:10,435 - INFO - User registration testing completed.
-2023-12-30 21:42:10,436 - INFO - User registration testing with existing email begins.
-2023-12-30 21:42:13,076 - INFO - Unsuccessful registration message found.
-2023-12-30 21:42:13,080 - INFO - User registration testing with existing email completed.
-2023-12-30 21:42:37,115 - INFO - Test starting: Adding product to the cart.
-2023-12-30 21:42:39,577 - INFO - Hovered over Men products.
-2023-12-30 21:42:39,844 - INFO - Hovered over Men Tops.
-2023-12-30 21:42:40,794 - INFO - Clicked on Men Jackets.
-2023-12-30 21:42:40,808 - INFO - Page title: Jackets
-2023-12-30 21:42:40,821 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2023-12-30 21:42:41,343 - INFO - Retrieving page title.
-2023-12-30 21:42:41,365 - INFO - Checking the price of the jacket.
-2023-12-30 21:42:41,409 - INFO - Selecting jacket size.
-2023-12-30 21:42:41,506 - INFO - Selecting jacket color.
-2023-12-30 21:42:41,534 - INFO - Clicking on 'Add to Cart' button.
-2023-12-30 21:42:41,570 - INFO - Verifying the success message after adding to cart.
-2023-12-30 21:42:43,387 - INFO - Clicking on the 'Cart' button.
-2023-12-30 21:42:43,419 - INFO - Clicking on the 'Delete' button.
-2023-12-30 21:42:43,653 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2023-12-30 21:42:44,209 - INFO - Verifying the message after removing the item.
-2023-12-30 21:42:45,400 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2023-12-30 21:42:45,400 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 11:46:04,767 - INFO - Test starting: Adding product to the cart.
-2024-01-03 11:46:07,158 - INFO - Hovered over Men products.
-2024-01-03 11:46:10,179 - INFO - User registration testing begins.
-2024-01-03 11:46:10,953 - INFO - Filling out registration form.
-2024-01-03 11:46:12,625 - INFO - Registration form filled out successfully.
-2024-01-03 11:46:33,067 - ERROR- Element not found or not visible within 20 seconds during successful registration.
-2024-01-03 11:46:33,079 - INFO - User registration  testing with existing email begins.
-2024-01-03 11:46:36,218 - INFO - Unsuccessful registration message found.
-2024-01-03 11:46:36,226 - INFO - User registration testing with existing email completed.
-2024-01-03 11:46:38,797 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 11:46:42,300 - INFO - Clicked on Sign Out button.
-2024-01-03 11:46:43,373 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 11:46:43,374 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 11:46:45,682 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 11:46:48,494 - INFO - End-to-end test begins
-2024-01-03 11:46:49,505 - INFO - Performing search and selecting a product
-2024-01-03 11:46:49,539 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 11:46:50,461 - WARNING - No product found with search term: 'arg'.
-2024-01-03 11:46:53,506 - INFO - Selected product with search term: 'arg'.
-2024-01-03 11:46:53,506 - INFO - Performing actions on the search results page
-2024-01-03 11:46:53,540 - INFO - Clicked on size button.
-2024-01-03 11:46:53,573 - INFO - Clicked on color button.
-2024-01-03 11:46:53,615 - INFO - Clicked on add button.
-2024-01-03 11:46:55,170 - INFO - Clicked on cart button.
-2024-01-03 11:46:57,538 - INFO - Clicked on checkout button.
-2024-01-03 11:46:57,538 - INFO - Filling in delivery information
-2024-01-03 11:46:57,538 - INFO - Filling out shipping information.
-2024-01-03 11:47:01,638 - INFO - Shipping information filled out successfully.
-2024-01-03 11:47:01,667 - INFO - Placing the order
-2024-01-03 11:47:04,941 - INFO - Waiting for the success message to be present.
-2024-01-03 11:47:08,065 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 11:47:08,066 - INFO - Success message verified.
-2024-01-03 11:47:08,066 - INFO - End-to-end test completed
-2024-01-03 11:47:31,954 - INFO - Test starting: Adding product to the cart.
-2024-01-03 11:47:34,488 - INFO - Hovered over Men products.
-2024-01-03 11:47:34,752 - INFO - Hovered over Men Tops.
-2024-01-03 11:47:36,187 - INFO - Clicked on Men Jackets.
-2024-01-03 11:47:36,203 - INFO - Page title: Jackets
-2024-01-03 11:47:36,214 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 11:47:39,638 - INFO - Retrieving page title.
-2024-01-03 11:47:39,649 - INFO - Checking the price of the jacket.
-2024-01-03 11:47:39,657 - INFO - Selecting jacket size.
-2024-01-03 11:47:39,684 - INFO - Selecting jacket color.
-2024-01-03 11:47:39,717 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 11:47:39,751 - INFO - Verifying the success message after adding to cart.
-2024-01-03 11:47:41,337 - INFO - Clicking on the 'Cart' button.
-2024-01-03 11:47:41,370 - INFO - Clicking on the 'Delete' button.
-2024-01-03 11:47:41,602 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 11:47:42,156 - INFO - Verifying the message after removing the item.
-2024-01-03 11:47:43,362 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 11:47:43,362 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 11:47:45,431 - INFO - User registration testing begins.
-2024-01-03 11:47:46,163 - INFO - Filling out registration form.
-2024-01-03 11:47:48,860 - INFO - Registration form filled out successfully.
-2024-01-03 11:47:49,381 - INFO - Successful registration message found.
-2024-01-03 11:47:49,421 - INFO - Clicked on Sign Out button.
-2024-01-03 11:47:56,484 - INFO - User registration testing completed.
-2024-01-03 11:47:56,485 - INFO - User registration testing with existing email begins.
-2024-01-03 11:47:59,207 - INFO - Unsuccessful registration message found.
-2024-01-03 11:47:59,211 - INFO - User registration testing with existing email completed.
-2024-01-03 11:48:01,890 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 11:48:05,460 - INFO - Clicked on Sign Out button.
-2024-01-03 11:48:06,507 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 11:48:06,509 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 11:48:08,847 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 11:48:11,674 - INFO - End-to-end test begins
-2024-01-03 11:48:12,674 - INFO - Performing search and selecting a product
-2024-01-03 11:48:12,709 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 11:48:13,620 - WARNING - No product found with search term: 'arg'.
-2024-01-03 11:48:14,389 - INFO - Selected product with search term: 'arg'.
-2024-01-03 11:48:14,389 - INFO - Performing actions on the search results page
-2024-01-03 11:48:14,532 - INFO - Clicked on size button.
-2024-01-03 11:48:14,570 - INFO - Clicked on color button.
-2024-01-03 11:48:14,605 - INFO - Clicked on add button.
-2024-01-03 11:48:17,194 - INFO - Clicked on cart button.
-2024-01-03 11:48:19,796 - INFO - Clicked on checkout button.
-2024-01-03 11:48:19,797 - INFO - Filling in delivery information
-2024-01-03 11:48:19,797 - INFO - Filling out shipping information.
-2024-01-03 11:48:22,030 - INFO - Shipping information filled out successfully.
-2024-01-03 11:48:22,059 - INFO - Placing the order
-2024-01-03 11:48:23,438 - INFO - Waiting for the success message to be present.
-2024-01-03 11:48:26,275 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 11:48:26,275 - INFO - Success message verified.
-2024-01-03 11:48:26,276 - INFO - End-to-end test completed
-2024-01-03 12:23:36,018 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:23:38,858 - INFO - Hovered over Men products.
-2024-01-03 12:23:39,124 - INFO - Hovered over Men Tops.
-2024-01-03 12:23:40,107 - INFO - Clicked on Men Jackets.
-2024-01-03 12:23:40,119 - INFO - Page title: Jackets
-2024-01-03 12:23:40,130 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 12:23:40,880 - INFO - Retrieving page title.
-2024-01-03 12:23:40,895 - INFO - Checking the price of the jacket.
-2024-01-03 12:23:40,905 - INFO - Selecting jacket size.
-2024-01-03 12:23:40,932 - INFO - Selecting jacket color.
-2024-01-03 12:23:40,958 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 12:23:40,992 - INFO - Verifying the success message after adding to cart.
-2024-01-03 12:23:42,659 - INFO - Clicking on the 'Cart' button.
-2024-01-03 12:23:42,693 - INFO - Clicking on the 'Delete' button.
-2024-01-03 12:23:42,919 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 12:23:43,473 - INFO - Verifying the message after removing the item.
-2024-01-03 12:23:44,672 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 12:23:44,672 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 12:23:47,375 - INFO - User registration testing begins.
-2024-01-03 12:23:48,249 - INFO - Filling out registration form.
-2024-01-03 12:23:50,996 - INFO - Registration form filled out successfully.
-2024-01-03 12:23:51,523 - INFO - Successful registration message found.
-2024-01-03 12:23:51,562 - INFO - Clicked on Sign Out button.
-2024-01-03 12:23:58,626 - INFO - User registration testing completed.
-2024-01-03 12:23:58,627 - INFO - User registration testing with existing email begins.
-2024-01-03 12:24:01,305 - INFO - Unsuccessful registration message found.
-2024-01-03 12:24:01,309 - INFO - User registration testing with existing email completed.
-2024-01-03 12:24:04,034 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:24:07,415 - INFO - Clicked on Sign Out button.
-2024-01-03 12:24:08,522 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 12:24:08,524 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:24:10,680 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 12:24:13,383 - INFO - End-to-end test begins
-2024-01-03 12:24:14,393 - INFO - Performing search and selecting a product
-2024-01-03 12:24:14,428 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:24:15,275 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:24:16,041 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:24:16,041 - INFO - Performing actions on the search results page
-2024-01-03 12:24:16,192 - INFO - Clicked on size button.
-2024-01-03 12:24:16,234 - INFO - Clicked on color button.
-2024-01-03 12:24:16,271 - INFO - Clicked on add button.
-2024-01-03 12:24:18,353 - INFO - Clicked on cart button.
-2024-01-03 12:24:20,725 - INFO - Clicked on checkout button.
-2024-01-03 12:24:20,725 - INFO - Filling in delivery information
-2024-01-03 12:24:20,725 - INFO - Filling out shipping information.
-2024-01-03 12:24:22,918 - INFO - Shipping information filled out successfully.
-2024-01-03 12:24:22,947 - INFO - Placing the order
-2024-01-03 12:24:24,447 - INFO - Waiting for the success message to be present.
-2024-01-03 12:24:27,905 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 12:24:27,905 - INFO - Success message verified.
-2024-01-03 12:24:27,905 - INFO - End-to-end test completed
-2024-01-03 12:25:34,192 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:25:36,743 - INFO - Hovered over Men products.
-2024-01-03 12:25:37,019 - INFO - Hovered over Men Tops.
-2024-01-03 12:25:37,916 - INFO - Clicked on Men Jackets.
-2024-01-03 12:25:37,921 - INFO - Page title: Jackets
-2024-01-03 12:25:37,956 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 12:25:38,681 - INFO - Retrieving page title.
-2024-01-03 12:25:38,693 - INFO - Checking the price of the jacket.
-2024-01-03 12:25:38,696 - INFO - Selecting jacket size.
-2024-01-03 12:25:38,993 - INFO - Selecting jacket color.
-2024-01-03 12:25:39,207 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 12:25:39,427 - INFO - Verifying the success message after adding to cart.
-2024-01-03 12:25:40,920 - INFO - Clicking on the 'Cart' button.
-2024-01-03 12:25:41,141 - INFO - Clicking on the 'Delete' button.
-2024-01-03 12:25:41,185 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 12:25:41,930 - INFO - Verifying the message after removing the item.
-2024-01-03 12:25:42,986 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 12:25:42,987 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 12:25:51,053 - INFO - User registration testing begins.
-2024-01-03 12:25:51,814 - INFO - Filling out registration form.
-2024-01-03 12:25:54,327 - INFO - Registration form filled out successfully.
-2024-01-03 12:25:54,835 - INFO - Successful registration message found.
-2024-01-03 12:25:55,052 - INFO - Clicked on Sign Out button.
-2024-01-03 12:26:02,207 - INFO - User registration testing completed.
-2024-01-03 12:26:02,208 - INFO - User registration testing with existing email begins.
-2024-01-03 12:26:04,845 - INFO - Unsuccessful registration message found.
-2024-01-03 12:26:04,848 - INFO - User registration testing with existing email completed.
-2024-01-03 12:26:11,536 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:26:45,297 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:27:10,048 - INFO - End-to-end test begins
-2024-01-03 12:27:11,060 - INFO - Performing search and selecting a product
-2024-01-03 12:27:11,098 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:27:11,889 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:27:12,546 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:27:12,546 - INFO - Performing actions on the search results page
-2024-01-03 12:27:12,941 - INFO - Clicked on size button.
-2024-01-03 12:27:13,157 - INFO - Clicked on color button.
-2024-01-03 12:27:13,376 - INFO - Clicked on add button.
-2024-01-03 12:27:15,126 - INFO - Clicked on cart button.
-2024-01-03 12:27:17,275 - INFO - Clicked on checkout button.
-2024-01-03 12:27:17,275 - INFO - Filling in delivery information
-2024-01-03 12:27:17,275 - INFO - Filling out shipping information.
-2024-01-03 12:27:50,020 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:27:52,988 - INFO - Hovered over Men products.
-2024-01-03 12:27:53,241 - INFO - Hovered over Men Tops.
-2024-01-03 12:27:54,137 - INFO - Clicked on Men Jackets.
-2024-01-03 12:27:54,151 - INFO - Page title: Jackets
-2024-01-03 12:27:54,153 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 12:27:54,881 - INFO - Retrieving page title.
-2024-01-03 12:27:54,890 - INFO - Checking the price of the jacket.
-2024-01-03 12:27:54,903 - INFO - Selecting jacket size.
-2024-01-03 12:27:55,261 - INFO - Selecting jacket color.
-2024-01-03 12:27:55,471 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 12:27:55,685 - INFO - Verifying the success message after adding to cart.
-2024-01-03 12:27:57,135 - INFO - Clicking on the 'Cart' button.
-2024-01-03 12:27:57,353 - INFO - Clicking on the 'Delete' button.
-2024-01-03 12:27:57,395 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 12:27:58,140 - INFO - Verifying the message after removing the item.
-2024-01-03 12:27:59,080 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 12:27:59,080 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 12:28:05,898 - INFO - User registration testing begins.
-2024-01-03 12:28:06,702 - INFO - Filling out registration form.
-2024-01-03 12:28:08,020 - INFO - Registration form filled out successfully.
-2024-01-03 12:28:11,200 - INFO - User registration testing with existing email begins.
-2024-01-03 12:28:11,201 - ERROR - Error during user registration with existing email: Message: Browsing context has been discarded
-
-2024-01-03 12:28:17,329 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:28:35,485 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:28:42,892 - INFO - End-to-end test begins
-2024-01-03 12:28:43,907 - INFO - Performing search and selecting a product
-2024-01-03 12:28:43,945 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:28:44,748 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:28:45,404 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:28:45,404 - INFO - Performing actions on the search results page
-2024-01-03 12:28:45,794 - INFO - Clicked on size button.
-2024-01-03 12:28:46,010 - INFO - Clicked on color button.
-2024-01-03 12:28:46,229 - INFO - Clicked on add button.
-2024-01-03 12:28:47,996 - INFO - Clicked on cart button.
-2024-01-03 12:28:50,094 - INFO - Clicked on checkout button.
-2024-01-03 12:28:50,094 - INFO - Filling in delivery information
-2024-01-03 12:28:50,094 - INFO - Filling out shipping information.
-2024-01-03 12:29:26,274 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:29:29,051 - INFO - Hovered over Men products.
-2024-01-03 12:29:29,317 - INFO - Hovered over Men Tops.
-2024-01-03 12:29:30,316 - INFO - Clicked on Men Jackets.
-2024-01-03 12:29:30,330 - INFO - Page title: Jackets
-2024-01-03 12:29:30,342 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 12:29:31,254 - INFO - Retrieving page title.
-2024-01-03 12:29:31,266 - INFO - Checking the price of the jacket.
-2024-01-03 12:29:31,276 - INFO - Selecting jacket size.
-2024-01-03 12:29:31,304 - INFO - Selecting jacket color.
-2024-01-03 12:29:31,378 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 12:29:31,415 - INFO - Verifying the success message after adding to cart.
-2024-01-03 12:29:32,925 - INFO - Clicking on the 'Cart' button.
-2024-01-03 12:29:32,962 - INFO - Clicking on the 'Delete' button.
-2024-01-03 12:29:33,196 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 12:29:33,745 - INFO - Verifying the message after removing the item.
-2024-01-03 12:29:34,998 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 12:29:34,998 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 12:29:40,200 - INFO - User registration testing begins.
-2024-01-03 12:29:40,935 - INFO - Filling out registration form.
-2024-01-03 12:29:43,573 - INFO - Registration form filled out successfully.
-2024-01-03 12:29:44,089 - INFO - Successful registration message found.
-2024-01-03 12:29:44,132 - INFO - Clicked on Sign Out button.
-2024-01-03 12:29:51,184 - INFO - User registration testing completed.
-2024-01-03 12:29:51,185 - INFO - User registration testing with existing email begins.
-2024-01-03 12:29:53,972 - INFO - Unsuccessful registration message found.
-2024-01-03 12:29:53,977 - INFO - User registration testing with existing email completed.
-2024-01-03 12:29:59,189 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:30:02,603 - INFO - Clicked on Sign Out button.
-2024-01-03 12:30:04,377 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 12:30:04,378 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:30:06,737 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 12:30:18,159 - INFO - End-to-end test begins
-2024-01-03 12:30:19,166 - INFO - Performing search and selecting a product
-2024-01-03 12:30:19,203 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:30:20,078 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:30:20,806 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:30:20,806 - INFO - Performing actions on the search results page
-2024-01-03 12:30:20,952 - INFO - Clicked on size button.
-2024-01-03 12:30:20,997 - INFO - Clicked on color button.
-2024-01-03 12:30:21,037 - INFO - Clicked on add button.
-2024-01-03 12:30:23,128 - INFO - Clicked on cart button.
-2024-01-03 12:30:25,363 - INFO - Clicked on checkout button.
-2024-01-03 12:30:25,363 - INFO - Filling in delivery information
-2024-01-03 12:30:25,363 - INFO - Filling out shipping information.
-2024-01-03 12:30:27,631 - INFO - Shipping information filled out successfully.
-2024-01-03 12:30:27,662 - INFO - Placing the order
-2024-01-03 12:30:29,164 - INFO - Waiting for the success message to be present.
-2024-01-03 12:30:32,503 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 12:30:32,503 - INFO - Success message verified.
-2024-01-03 12:30:32,503 - INFO - End-to-end test completed
-2024-01-03 12:32:27,677 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:32:30,451 - INFO - Hovered over Men products.
-2024-01-03 12:32:37,445 - INFO - User registration testing begins.
-2024-01-03 12:32:38,525 - INFO - Filling out registration form.
-2024-01-03 12:32:41,086 - INFO - Registration form filled out successfully.
-2024-01-03 12:32:41,601 - INFO - Successful registration message found.
-2024-01-03 12:32:41,818 - INFO - Clicked on Sign Out button.
-2024-01-03 12:32:48,846 - INFO - User registration testing completed.
-2024-01-03 12:32:48,847 - INFO - User registration testing with existing email begins.
-2024-01-03 12:32:51,432 - INFO - Unsuccessful registration message found.
-2024-01-03 12:32:51,435 - INFO - User registration testing with existing email completed.
-2024-01-03 12:32:58,015 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:33:31,575 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:33:35,130 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 12:33:42,375 - INFO - End-to-end test begins
-2024-01-03 12:33:43,381 - INFO - Performing search and selecting a product
-2024-01-03 12:33:43,426 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:33:44,202 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:33:44,876 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:33:44,876 - INFO - Performing actions on the search results page
-2024-01-03 12:33:45,277 - INFO - Clicked on size button.
-2024-01-03 12:33:45,508 - INFO - Clicked on color button.
-2024-01-03 12:33:45,726 - INFO - Clicked on add button.
-2024-01-03 12:33:47,466 - INFO - Clicked on cart button.
-2024-01-03 12:33:49,595 - INFO - Clicked on checkout button.
-2024-01-03 12:33:49,595 - INFO - Filling in delivery information
-2024-01-03 12:33:49,595 - INFO - Filling out shipping information.
-2024-01-03 12:36:41,893 - INFO - Test starting: Adding product to the cart.
-2024-01-03 12:36:44,338 - INFO - Hovered over Men products.
-2024-01-03 12:36:44,371 - INFO - Hovered over Men Tops.
-2024-01-03 12:36:45,388 - INFO - Clicked on Men Jackets.
-2024-01-03 12:36:45,403 - INFO - Page title: Jackets
-2024-01-03 12:36:45,415 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 12:36:46,276 - INFO - Retrieving page title.
-2024-01-03 12:36:46,287 - INFO - Checking the price of the jacket.
-2024-01-03 12:36:46,297 - INFO - Selecting jacket size.
-2024-01-03 12:36:46,325 - INFO - Selecting jacket color.
-2024-01-03 12:36:46,351 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 12:36:46,389 - INFO - Verifying the success message after adding to cart.
-2024-01-03 12:36:47,962 - INFO - Clicking on the 'Cart' button.
-2024-01-03 12:36:47,995 - INFO - Clicking on the 'Delete' button.
-2024-01-03 12:36:48,226 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 12:36:48,778 - INFO - Verifying the message after removing the item.
-2024-01-03 12:36:49,973 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 12:36:49,973 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 12:36:52,583 - INFO - User registration testing begins.
-2024-01-03 12:36:53,394 - INFO - Filling out registration form.
-2024-01-03 12:36:56,247 - INFO - Registration form filled out successfully.
-2024-01-03 12:36:56,768 - INFO - Successful registration message found.
-2024-01-03 12:36:56,807 - INFO - Clicked on Sign Out button.
-2024-01-03 12:37:03,869 - INFO - User registration testing completed.
-2024-01-03 12:37:03,870 - INFO - User registration testing with existing email begins.
-2024-01-03 12:37:06,669 - INFO - Unsuccessful registration message found.
-2024-01-03 12:37:06,674 - INFO - User registration testing with existing email completed.
-2024-01-03 12:37:09,834 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 12:37:13,241 - INFO - Clicked on Sign Out button.
-2024-01-03 12:37:14,323 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 12:37:14,326 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 12:37:16,701 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 12:37:19,434 - INFO - End-to-end test begins
-2024-01-03 12:37:20,441 - INFO - Performing search and selecting a product
-2024-01-03 12:37:20,477 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 12:37:21,318 - WARNING - No product found with search term: 'arg'.
-2024-01-03 12:37:22,108 - INFO - Selected product with search term: 'arg'.
-2024-01-03 12:37:22,108 - INFO - Performing actions on the search results page
-2024-01-03 12:37:22,293 - INFO - Clicked on size button.
-2024-01-03 12:37:22,331 - INFO - Clicked on color button.
-2024-01-03 12:37:22,365 - INFO - Clicked on add button.
-2024-01-03 12:37:23,933 - INFO - Clicked on cart button.
-2024-01-03 12:37:26,253 - INFO - Clicked on checkout button.
-2024-01-03 12:37:26,253 - INFO - Filling in delivery information
-2024-01-03 12:37:26,253 - INFO - Filling out shipping information.
-2024-01-03 12:37:28,487 - INFO - Shipping information filled out successfully.
-2024-01-03 12:37:28,516 - INFO - Placing the order
-2024-01-03 12:37:30,015 - INFO - Waiting for the success message to be present.
-2024-01-03 12:37:33,005 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 12:37:33,005 - INFO - Success message verified.
-2024-01-03 12:37:33,005 - INFO - End-to-end test completed
-2024-01-03 13:50:24,153 - INFO - End-to-end test begins
-2024-01-03 13:50:25,162 - INFO - Performing search and selecting a product
-2024-01-03 13:50:25,197 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 13:50:31,411 - WARNING - No product found with search term: 'arg'.
-2024-01-03 13:50:36,590 - INFO - Selected product with search term: 'arg'.
-2024-01-03 13:50:36,590 - INFO - Performing actions on the search results page
-2024-01-03 13:50:36,730 - INFO - Clicked on size button.
-2024-01-03 13:50:36,765 - INFO - Clicked on color button.
-2024-01-03 13:50:36,802 - INFO - Clicked on add button.
-2024-01-03 13:50:57,270 - ERROR - Error clicking cart button: Message: 
-
-2024-01-03 13:51:32,320 - ERROR - Error clicking checkout button: Message: element not interactable
-  (Session info: chrome=120.0.6099.130)
-
-2024-01-03 13:51:32,320 - INFO - Filling in delivery information
-2024-01-03 13:51:32,320 - INFO - Filling out shipping information.
-2024-01-03 13:52:02,875 - ERROR - TimeoutException occurred while filling out shipping information.
-2024-01-03 13:52:02,875 - INFO - Placing the order
-2024-01-03 13:54:22,207 - INFO - Test starting: Adding product to the cart.
-2024-01-03 13:54:44,762 - INFO - Hovered over Men products.
-2024-01-03 13:54:45,030 - INFO - Hovered over Men Tops.
-2024-01-03 13:54:51,800 - INFO - Clicked on Men Jackets.
-2024-01-03 13:54:51,814 - INFO - Page title: Jackets
-2024-01-03 13:54:51,825 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 13:55:01,180 - INFO - Retrieving page title.
-2024-01-03 13:55:01,190 - INFO - Checking the price of the jacket.
-2024-01-03 13:55:01,199 - INFO - Selecting jacket size.
-2024-01-03 13:55:01,230 - INFO - Selecting jacket color.
-2024-01-03 13:55:01,263 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 13:55:01,326 - INFO - Verifying the success message after adding to cart.
-2024-01-03 13:55:21,849 - ERROR - Error verifying success message: Message: Message not found within 20 seconds.
-
-2024-01-03 14:13:38,062 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 14:14:28,322 - INFO - Clicked on Sign Out button.
-2024-01-03 14:14:45,337 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 14:14:45,338 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 14:15:50,056 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 14:16:26,329 - INFO - Clicked on Sign Out button.
-2024-01-03 14:16:42,400 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 14:17:01,082 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 14:17:56,329 - INFO - Clicked on Sign Out button.
-2024-01-03 14:18:16,348 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 14:21:47,107 - INFO - Test starting: Adding product to the cart.
-2024-01-03 14:22:08,826 - INFO - Hovered over Men products.
-2024-01-03 14:22:09,092 - INFO - Hovered over Men Tops.
-2024-01-03 14:22:13,756 - INFO - Clicked on Men Jackets.
-2024-01-03 14:22:13,769 - INFO - Page title: Jackets
-2024-01-03 14:22:13,780 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 14:22:22,369 - INFO - Retrieving page title.
-2024-01-03 14:22:22,386 - INFO - Checking the price of the jacket.
-2024-01-03 14:22:22,397 - INFO - Selecting jacket size.
-2024-01-03 14:22:22,443 - INFO - Selecting jacket color.
-2024-01-03 14:22:22,468 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 14:22:22,504 - INFO - Verifying the success message after adding to cart.
-2024-01-03 14:22:43,027 - ERROR - Error verifying success message: Message: Message not found within 20 seconds.
-
-2024-01-03 14:38:42,835 - INFO - End-to-end test begins
-2024-01-03 14:38:43,850 - INFO - Performing search and selecting a product
-2024-01-03 14:38:43,887 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 14:38:54,272 - WARNING - No product found with search term: 'arg'.
-2024-01-03 14:39:05,491 - INFO - Selected product with search term: 'arg'.
-2024-01-03 14:39:05,492 - INFO - Performing actions on the search results page
-2024-01-03 14:39:05,636 - INFO - Clicked on size button.
-2024-01-03 14:39:05,672 - INFO - Clicked on color button.
-2024-01-03 14:39:58,271 - INFO - Clicked on add button.
-2024-01-03 14:40:18,582 - ERROR - Error clicking cart button: Message: 
-
-2024-01-03 14:40:19,974 - ERROR - Error clicking checkout button: Message: disconnected: unable to send message to renderer
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=120.0.6099.130)
-
-2024-01-03 14:40:19,975 - INFO - Filling in delivery information
-2024-01-03 14:40:19,975 - INFO - Filling out shipping information.
-2024-01-03 14:51:33,080 - INFO - End-to-end test begins
-2024-01-03 14:51:34,087 - INFO - Performing search and selecting a product
-2024-01-03 14:51:34,122 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 14:51:48,314 - WARNING - No product found with search term: 'arg'.
-2024-01-03 14:52:02,361 - INFO - Selected product with search term: 'arg'.
-2024-01-03 14:52:02,361 - INFO - Performing actions on the search results page
-2024-01-03 14:52:02,505 - INFO - Clicked on size button.
-2024-01-03 14:52:02,548 - INFO - Clicked on color button.
-2024-01-03 14:52:02,584 - INFO - Clicked on add button.
-2024-01-03 14:52:23,019 - ERROR - Error clicking cart button: Message: 
-
-2024-01-03 14:52:53,596 - ERROR - Error clicking checkout button: Message: Checkout button not visible within 30 seconds.
-
-2024-01-03 14:52:53,596 - INFO - Filling in delivery information
-2024-01-03 14:52:53,596 - INFO - Filling out shipping information.
-2024-01-03 14:53:24,128 - ERROR - TimeoutException occurred while filling out shipping information.
-2024-01-03 14:53:24,128 - INFO - Placing the order
-2024-01-03 15:02:42,197 - INFO - Test starting: Adding product to the cart.
-2024-01-03 15:03:14,607 - INFO - Hovered over Men products.
-2024-01-03 15:03:14,874 - INFO - Hovered over Men Tops.
-2024-01-03 15:03:21,162 - INFO - Clicked on Men Jackets.
-2024-01-03 15:03:21,244 - INFO - Page title: Jackets
-2024-01-03 15:03:21,285 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 15:03:31,434 - INFO - Retrieving page title.
-2024-01-03 15:03:31,492 - INFO - Checking the price of the jacket.
-2024-01-03 15:03:31,528 - INFO - Selecting jacket size.
-2024-01-03 15:03:31,564 - INFO - Selecting jacket color.
-2024-01-03 15:03:31,600 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 15:03:31,637 - INFO - Verifying the success message after adding to cart.
-2024-01-03 15:03:52,208 - ERROR - Error verifying success message: Message: 
-
-2024-01-03 15:05:48,409 - INFO - Test starting: Adding product to the cart.
-2024-01-03 15:06:06,779 - INFO - Hovered over Men products.
-2024-01-03 15:06:07,046 - INFO - Hovered over Men Tops.
-2024-01-03 15:06:13,158 - INFO - Clicked on Men Jackets.
-2024-01-03 15:06:13,252 - INFO - Page title: Jackets
-2024-01-03 15:06:13,269 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 15:06:19,431 - INFO - Retrieving page title.
-2024-01-03 15:06:19,478 - INFO - Checking the price of the jacket.
-2024-01-03 15:06:19,519 - INFO - Selecting jacket size.
-2024-01-03 15:06:19,577 - INFO - Selecting jacket color.
-2024-01-03 15:06:19,617 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 15:06:19,653 - INFO - Verifying the success message after adding to cart.
-2024-01-03 15:06:40,205 - ERROR - Error verifying success message: Message: 
-
-2024-01-03 15:16:08,963 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 15:21:07,903 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 15:23:47,909 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 15:24:21,278 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 15:26:56,272 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 15:31:18,878 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 15:32:00,227 - INFO - Clicked on Sign Out button.
-2024-01-03 15:32:13,226 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 15:32:13,227 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 15:34:07,994 - INFO - End-to-end test begins
-2024-01-03 15:34:08,999 - INFO - Performing search and selecting a product
-2024-01-03 15:34:09,034 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 15:34:39,050 - INFO - Performing actions on the search results page
-2024-01-03 15:34:39,098 - INFO - Clicked on size button.
-2024-01-03 15:34:39,137 - INFO - Clicked on color button.
-2024-01-03 15:34:59,768 - ERROR - Error clicking add button: Message: no such window: target window already closed
+2024-01-26 20:12:05,857 - INFO - Filling in delivery information
+2024-01-26 20:12:05,857 - INFO - Filling out shipping information.
+2024-01-26 20:16:24,492 - INFO - End-to-end test begins
+2024-01-26 20:16:25,497 - INFO - Performing search and selecting a product
+2024-01-26 20:16:25,531 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:16:26,448 - ERROR - No product found with search term: 'arg'.
+2024-01-26 20:16:26,448 - ERROR - No product found with search term: 'arg'.
+2024-01-26 20:16:27,279 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:16:27,279 - INFO - Performing actions on the search results page
+2024-01-26 20:16:27,421 - INFO - Clicked on size button.
+2024-01-26 20:16:27,458 - INFO - Clicked on color button.
+2024-01-26 20:16:29,087 - INFO - Clicked on add button.
+2024-01-26 20:16:50,096 - INFO - Clicked on cart button.
+2024-01-26 20:16:51,101 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
+  (Session info: chrome=120.0.6099.225)
 
-2024-01-03 15:34:59,769 - ERROR - Error clicking cart button: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-
-2024-01-03 15:34:59,770 - ERROR - Error clicking checkout button: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=120.0.6099.130)
-
-2024-01-03 15:34:59,770 - INFO - Filling in delivery information
-2024-01-03 15:34:59,770 - INFO - Filling out shipping information.
-2024-01-03 16:21:27,401 - INFO - Test starting: Adding product to the cart.
-2024-01-03 16:21:42,243 - INFO - Hovered over Men products.
-2024-01-03 16:21:42,512 - INFO - Hovered over Men Tops.
-2024-01-03 16:21:46,271 - INFO - Clicked on Men Jackets.
-2024-01-03 16:21:46,283 - INFO - Page title: Jackets
-2024-01-03 16:21:46,294 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 16:21:49,900 - INFO - Product Lando Gym Jacket found and clicked.
-2024-01-03 16:21:49,900 - INFO - Retrieving page title.
-2024-01-03 16:21:49,957 - INFO - Checking the price of the jacket.
-2024-01-03 16:21:50,007 - INFO - Selecting jacket size.
-2024-01-03 16:21:50,056 - INFO - Selecting jacket color.
-2024-01-03 16:21:50,096 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 16:21:50,136 - INFO - Verifying the success message after adding to cart.
-2024-01-03 16:21:56,325 - INFO - Clicking on the 'Cart' button.
-2024-01-03 16:21:56,360 - INFO - Clicking on the 'Delete' button.
-2024-01-03 16:21:56,400 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 16:21:56,955 - INFO - Verifying the message after removing the item.
-2024-01-03 16:22:06,788 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 16:22:06,788 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 16:22:46,568 - INFO - Test starting: Adding product to the cart.
-2024-01-03 16:23:02,381 - INFO - Hovered over Men products.
-2024-01-03 16:23:02,646 - INFO - Hovered over Men Tops.
-2024-01-03 16:23:09,221 - INFO - Clicked on Men Jackets.
-2024-01-03 16:23:09,237 - INFO - Page title: Jackets
-2024-01-03 16:23:09,248 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 16:23:16,256 - INFO - Product Lando Gym Jacket found and clicked.
-2024-01-03 16:23:16,257 - INFO - Retrieving page title.
-2024-01-03 16:23:16,267 - INFO - Checking the price of the jacket.
-2024-01-03 16:23:16,276 - INFO - Selecting jacket size.
-2024-01-03 16:23:16,313 - INFO - Selecting jacket color.
-2024-01-03 16:23:16,356 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 16:23:16,391 - INFO - Verifying the success message after adding to cart.
-2024-01-03 16:23:25,246 - INFO - Clicking on the 'Cart' button.
-2024-01-03 16:23:25,279 - INFO - Clicking on the 'Delete' button.
-2024-01-03 16:23:25,818 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 16:23:26,376 - INFO - Verifying the message after removing the item.
-2024-01-03 16:23:35,318 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 16:23:35,318 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 16:25:40,498 - INFO - Testing sign-in with correct credentials begins.
-2024-01-03 16:25:58,722 - INFO - Clicked on Sign Out button.
-2024-01-03 16:26:09,986 - INFO - Testing sign-in with correct credentials completed.
-2024-01-03 16:26:09,988 - INFO - Testing sign-in with incorrect credentials begins.
-2024-01-03 16:26:26,403 - INFO - Testing sign-in with incorrect credentials completed.
-2024-01-03 16:26:48,591 - INFO - Test starting: Adding product to the cart.
-2024-01-03 16:27:05,534 - INFO - Hovered over Men products.
-2024-01-03 16:27:05,799 - INFO - Hovered over Men Tops.
-2024-01-03 16:27:11,051 - INFO - Clicked on Men Jackets.
-2024-01-03 16:27:11,063 - INFO - Page title: Jackets
-2024-01-03 16:27:11,075 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 16:27:16,126 - INFO - Product Lando Gym Jacket found and clicked.
-2024-01-03 16:27:16,126 - INFO - Retrieving page title.
-2024-01-03 16:27:16,163 - INFO - Checking the price of the jacket.
-2024-01-03 16:27:16,209 - INFO - Selecting jacket size.
-2024-01-03 16:27:16,263 - INFO - Selecting jacket color.
-2024-01-03 16:27:16,294 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 16:27:16,329 - INFO - Verifying the success message after adding to cart.
-2024-01-03 16:27:26,623 - INFO - Clicking on the 'Cart' button.
-2024-01-03 16:27:26,657 - INFO - Clicking on the 'Delete' button.
-2024-01-03 16:27:26,886 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 16:27:27,431 - INFO - Verifying the message after removing the item.
-2024-01-03 16:27:36,437 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 16:27:36,438 - INFO - Test finished: Product added to the cart and removed from the cart.
-2024-01-03 16:30:14,273 - INFO - User registration testing begins.
-2024-01-03 16:30:20,368 - INFO - Filling out registration form.
-2024-01-03 16:30:33,625 - INFO - Registration form filled out successfully.
-2024-01-03 16:30:34,156 - INFO - Successful registration message found.
-2024-01-03 16:30:34,195 - INFO - Clicked on Sign Out button.
-2024-01-03 16:30:48,236 - INFO - User registration testing completed.
-2024-01-03 16:30:48,237 - INFO - User registration testing with existing email begins.
-2024-01-03 16:31:02,957 - INFO - Unsuccessful registration message found.
-2024-01-03 16:31:02,961 - INFO - User registration testing with existing email completed.
-2024-01-03 16:31:31,398 - INFO - End-to-end test begins
-2024-01-03 16:31:32,412 - INFO - Performing search and selecting a product
-2024-01-03 16:31:32,445 - INFO - Entered search term: 'arg' in the search box.
-2024-01-03 16:31:38,090 - WARNING - No product found with search term: 'arg'.
-2024-01-03 16:31:42,731 - INFO - Selected product with search term: 'arg'.
-2024-01-03 16:31:42,731 - INFO - Performing actions on the search results page
-2024-01-03 16:31:42,872 - INFO - Clicked on size button.
-2024-01-03 16:31:42,910 - INFO - Clicked on color button.
-2024-01-03 16:31:42,945 - INFO - Clicked on add button.
-2024-01-03 16:31:56,739 - INFO - Clicked on cart button.
-2024-01-03 16:32:01,524 - INFO - Clicked on checkout button.
-2024-01-03 16:32:01,524 - INFO - Filling in delivery information
-2024-01-03 16:32:01,524 - INFO - Filling out shipping information.
-2024-01-03 16:32:10,088 - INFO - Shipping information filled out successfully.
-2024-01-03 16:32:10,117 - INFO - Placing the order
-2024-01-03 16:32:18,652 - INFO - Waiting for the success message to be present.
-2024-01-03 16:32:33,190 - INFO - Success message found: Thank you for your purchase!
-2024-01-03 16:32:33,190 - INFO - Success message verified.
-2024-01-03 16:32:33,190 - INFO - End-to-end test completed
-2024-01-03 16:48:10,897 - INFO - Test starting: Adding product to the cart.
-2024-01-03 16:48:15,611 - INFO - Hovered over Men products.
-2024-01-03 16:48:15,888 - INFO - Hovered over Men Tops.
-2024-01-03 16:48:17,606 - INFO - Clicked on Men Jackets.
-2024-01-03 16:48:17,621 - INFO - Page title: Jackets
-2024-01-03 16:48:17,632 - INFO - Found jacket with name: 'Lando Gym Jacket'
-2024-01-03 16:48:18,327 - INFO - Product Lando Gym Jacket found and clicked.
-2024-01-03 16:48:18,327 - INFO - Retrieving page title.
-2024-01-03 16:48:18,359 - INFO - Checking the price of the jacket.
-2024-01-03 16:48:18,407 - INFO - Selecting jacket size.
-2024-01-03 16:48:18,463 - INFO - Selecting jacket color.
-2024-01-03 16:48:18,497 - INFO - Clicking on 'Add to Cart' button.
-2024-01-03 16:48:18,531 - INFO - Verifying the success message after adding to cart.
-2024-01-03 16:48:25,304 - INFO - Clicking on the 'Cart' button.
-2024-01-03 16:48:25,339 - INFO - Clicking on the 'Delete' button.
-2024-01-03 16:48:25,566 - INFO - Clicking on the 'Remove' button in the confirmation popup.
-2024-01-03 16:48:26,118 - INFO - Verifying the message after removing the item.
-2024-01-03 16:48:29,124 - INFO - Assertion: Successfully checked the shopping cart is empty.
-2024-01-03 16:48:29,125 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-26 20:16:51,102 - INFO - Filling in delivery information
+2024-01-26 20:16:51,102 - INFO - Filling out shipping information.
+2024-01-26 20:18:20,089 - INFO - End-to-end test begins
+2024-01-26 20:18:21,094 - INFO - Performing search and selecting a product
+2024-01-26 20:18:21,128 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:18:51,391 - INFO - End-to-end test begins
+2024-01-26 20:18:52,397 - INFO - Performing search and selecting a product
+2024-01-26 20:18:52,433 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:18:53,534 - WARNING - No product found with search term: 'arg'.
+2024-01-26 20:18:54,697 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:18:54,697 - INFO - Performing actions on the search results page
+2024-01-26 20:18:54,840 - INFO - Clicked on size button.
+2024-01-26 20:18:54,884 - INFO - Clicked on color button.
+2024-01-26 20:18:54,921 - INFO - Clicked on add button.
+2024-01-26 20:19:00,036 - INFO - Clicked on cart button.
+2024-01-26 20:19:03,423 - INFO - Clicked on checkout button.
+2024-01-26 20:19:03,423 - INFO - Filling in delivery information
+2024-01-26 20:19:03,424 - INFO - Filling out shipping information.
+2024-01-26 20:19:08,701 - INFO - Shipping information filled out successfully.
+2024-01-26 20:19:08,731 - INFO - Placing the order
+2024-01-26 20:19:13,338 - INFO - Waiting for the success message to be present.
+2024-01-26 20:19:18,546 - INFO - Success message found: Thank you for your purchase!
+2024-01-26 20:19:18,546 - INFO - Success message verified.
+2024-01-26 20:19:18,546 - INFO - End-to-end test completed
+2024-01-26 20:20:59,831 - INFO - End-to-end test begins
+2024-01-26 20:21:00,833 - INFO - Performing search and selecting a product
+2024-01-26 20:21:00,870 - INFO - Entered search term: 'arg' in the search box.
+2024-01-26 20:21:02,290 - WARNING - No product found with search term: 'arg'.
+2024-01-26 20:21:03,422 - INFO - Selected product with search term: 'arg'.
+2024-01-26 20:21:03,422 - INFO - Performing actions on the search results page
+2024-01-26 20:21:03,561 - INFO - Clicked on size button.
+2024-01-26 20:21:03,596 - INFO - Clicked on color button.
+2024-01-26 20:21:07,956 - INFO - Clicked on add button.
+2024-01-26 20:21:11,081 - INFO - Clicked on cart button.
+2024-01-26 20:21:14,108 - INFO - Clicked on checkout button.
+2024-01-26 20:21:14,108 - INFO - Filling in delivery information
+2024-01-26 20:21:14,108 - INFO - Filling out shipping information.
+2024-01-26 20:21:17,208 - INFO - Shipping information filled out successfully.
+2024-01-26 20:21:17,236 - INFO - Placing the order
+2024-01-26 20:21:19,890 - INFO - Waiting for the success message to be present.
+2024-01-26 20:21:24,797 - INFO - Success message found: Thank you for your purchase!
+2024-01-26 20:21:24,797 - INFO - Success message verified.
+2024-01-26 20:21:24,797 - INFO - End-to-end test completed
+2024-01-29 15:00:34,367 - INFO - End-to-end test begins
+2024-01-29 15:00:35,374 - INFO - Performing search and selecting a product
+2024-01-29 15:00:35,413 - INFO - Entered search term: 'arg' in the search box.
+2024-01-29 15:00:36,722 - WARNING - No product found with search term: 'arg'.
+2024-01-29 15:00:38,918 - INFO - Selected product with search term: 'arg'.
+2024-01-29 15:00:38,918 - INFO - Performing actions on the search results page
+2024-01-29 15:00:39,067 - INFO - Clicked on size button.
+2024-01-29 15:00:39,112 - INFO - Clicked on color button.
+2024-01-29 15:00:39,148 - INFO - Clicked on add button.
+2024-01-29 15:00:41,205 - INFO - Clicked on cart button.
+2024-01-29 15:00:43,829 - INFO - Clicked on checkout button.
+2024-01-29 15:00:43,829 - INFO - Filling in delivery information
+2024-01-29 15:00:43,829 - INFO - Filling out shipping information.
+2024-01-29 15:00:46,041 - INFO - Shipping information filled out successfully.
+2024-01-29 15:00:46,069 - INFO - Placing the order
+2024-01-29 15:00:47,658 - INFO - Waiting for the success message to be present.
+2024-01-29 15:00:51,981 - INFO - Success message found: Thank you for your purchase!
+2024-01-29 15:00:51,981 - INFO - Success message verified.
+2024-01-29 15:00:51,981 - INFO - End-to-end test completed
+2024-01-29 15:05:53,720 - INFO - Test starting: Adding product to the cart.
+2024-01-29 15:05:57,155 - INFO - Hovered over Men products.
+2024-01-29 15:05:57,424 - INFO - Hovered over Men Tops.
+2024-01-29 15:05:58,909 - INFO - Clicked on Men Jackets.
+2024-01-29 15:05:58,924 - INFO - Page title: Jackets
+2024-01-29 15:05:58,934 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-29 15:06:01,933 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-29 15:06:01,934 - INFO - Retrieving page title.
+2024-01-29 15:06:01,946 - INFO - Checking the price of the jacket.
+2024-01-29 15:06:01,966 - INFO - Selecting jacket size.
+2024-01-29 15:06:01,995 - INFO - Selecting jacket color.
+2024-01-29 15:06:02,033 - INFO - Clicking on 'Add to Cart' button.
+2024-01-29 15:06:02,066 - INFO - Verifying the success message after adding to cart.
+2024-01-29 15:06:05,297 - INFO - Clicking on the 'Cart' button.
+2024-01-29 15:06:05,329 - INFO - Clicking on the 'Delete' button.
+2024-01-29 15:06:05,562 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-29 15:06:06,108 - INFO - Verifying the message after removing the item.
+2024-01-29 15:06:07,639 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-29 15:06:07,639 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-29 15:51:20,318 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 15:51:24,099 - INFO - Clicked on Sign Out button.
+2024-01-29 15:51:25,199 - INFO - Testing sign-in with correct credentials completed.
+2024-01-29 15:51:25,201 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 15:51:28,035 - INFO - Testing sign-in with incorrect credentials completed.
+2024-01-29 15:52:21,667 - INFO - Test starting: Adding product to the cart.
+2024-01-29 15:52:24,175 - INFO - Hovered over Men products.
+2024-01-29 15:52:24,443 - INFO - Hovered over Men Tops.
+2024-01-29 15:52:25,918 - INFO - Clicked on Men Jackets.
+2024-01-29 15:52:25,931 - INFO - Page title: Jackets
+2024-01-29 15:52:25,940 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-29 15:52:28,132 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-29 15:52:28,132 - INFO - Retrieving page title.
+2024-01-29 15:52:28,143 - INFO - Checking the price of the jacket.
+2024-01-29 15:52:28,151 - INFO - Selecting jacket size.
+2024-01-29 15:52:28,186 - INFO - Selecting jacket color.
+2024-01-29 15:52:28,232 - INFO - Clicking on 'Add to Cart' button.
+2024-01-29 15:52:28,269 - INFO - Verifying the success message after adding to cart.
+2024-01-29 15:52:29,991 - INFO - Clicking on the 'Cart' button.
+2024-01-29 15:52:30,022 - INFO - Clicking on the 'Delete' button.
+2024-01-29 15:52:30,255 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-29 15:52:30,798 - INFO - Verifying the message after removing the item.
+2024-01-29 15:52:32,129 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-29 15:52:32,129 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-29 15:52:34,886 - INFO - User registration testing begins.
+2024-01-29 15:52:36,213 - INFO - Filling out registration form.
+2024-01-29 15:52:39,174 - INFO - Registration form filled out successfully.
+2024-01-29 15:52:39,689 - INFO - Successful registration message found.
+2024-01-29 15:52:39,727 - INFO - Clicked on Sign Out button.
+2024-01-29 15:52:47,060 - INFO - User registration testing completed.
+2024-01-29 15:52:47,061 - INFO - User registration testing with existing email begins.
+2024-01-29 15:52:50,113 - INFO - Unsuccessful registration message found.
+2024-01-29 15:52:50,117 - INFO - User registration testing with existing email completed.
+2024-01-29 15:52:52,702 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 15:52:56,353 - INFO - Clicked on Sign Out button.
+2024-01-29 15:52:57,635 - INFO - Testing sign-in with correct credentials completed.
+2024-01-29 15:52:57,636 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 15:53:00,022 - INFO - Testing sign-in with incorrect credentials completed.
+2024-01-29 15:53:02,790 - INFO - End-to-end test begins
+2024-01-29 15:53:03,794 - INFO - Performing search and selecting a product
+2024-01-29 15:53:03,828 - INFO - Entered search term: 'arg' in the search box.
+2024-01-29 15:53:04,693 - WARNING - No product found with search term: 'arg'.
+2024-01-29 15:53:05,445 - INFO - Selected product with search term: 'arg'.
+2024-01-29 15:53:05,445 - INFO - Performing actions on the search results page
+2024-01-29 15:53:05,589 - INFO - Clicked on size button.
+2024-01-29 15:53:05,623 - INFO - Clicked on color button.
+2024-01-29 15:53:05,659 - INFO - Clicked on add button.
+2024-01-29 15:53:07,713 - INFO - Clicked on cart button.
+2024-01-29 15:53:10,435 - INFO - Clicked on checkout button.
+2024-01-29 15:53:10,435 - INFO - Filling in delivery information
+2024-01-29 15:53:10,435 - INFO - Filling out shipping information.
+2024-01-29 15:53:12,866 - INFO - Shipping information filled out successfully.
+2024-01-29 15:53:12,893 - INFO - Placing the order
+2024-01-29 15:53:14,486 - INFO - Waiting for the success message to be present.
+2024-01-29 15:53:17,790 - INFO - Success message found: Thank you for your purchase!
+2024-01-29 15:53:17,790 - INFO - Success message verified.
+2024-01-29 15:53:17,790 - INFO - End-to-end test completed
+2024-01-29 15:54:27,952 - INFO - Test starting: Adding product to the cart.
+2024-01-29 15:54:30,454 - INFO - Hovered over Men products.
+2024-01-29 15:54:30,516 - INFO - Hovered over Men Tops.
+2024-01-29 15:54:31,510 - INFO - Clicked on Men Jackets.
+2024-01-29 15:54:31,523 - INFO - Page title: Jackets
+2024-01-29 15:54:31,536 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-29 15:54:32,162 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-29 15:54:32,163 - INFO - Retrieving page title.
+2024-01-29 15:54:32,194 - INFO - Checking the price of the jacket.
+2024-01-29 15:54:32,248 - INFO - Selecting jacket size.
+2024-01-29 15:54:32,317 - INFO - Selecting jacket color.
+2024-01-29 15:54:32,349 - INFO - Clicking on 'Add to Cart' button.
+2024-01-29 15:54:32,380 - INFO - Verifying the success message after adding to cart.
+2024-01-29 15:54:34,162 - INFO - Clicking on the 'Cart' button.
+2024-01-29 15:54:34,193 - INFO - Clicking on the 'Delete' button.
+2024-01-29 15:54:34,417 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-29 15:54:34,963 - INFO - Verifying the message after removing the item.
+2024-01-29 15:54:36,178 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-29 15:54:36,178 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-29 15:54:38,966 - INFO - User registration testing begins.
+2024-01-29 15:54:39,815 - INFO - Filling out registration form.
+2024-01-29 15:54:42,715 - INFO - Registration form filled out successfully.
+2024-01-29 15:54:43,247 - INFO - Successful registration message found.
+2024-01-29 15:54:43,284 - INFO - Clicked on Sign Out button.
+2024-01-29 15:54:50,425 - INFO - User registration testing completed.
+2024-01-29 15:54:50,426 - INFO - User registration testing with existing email begins.
+2024-01-29 15:54:53,192 - INFO - Unsuccessful registration message found.
+2024-01-29 15:54:53,196 - INFO - User registration testing with existing email completed.
+2024-01-29 15:54:55,986 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 15:54:59,467 - INFO - Clicked on Sign Out button.
+2024-01-29 15:55:00,603 - INFO - Testing sign-in with correct credentials completed.
+2024-01-29 15:55:00,604 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 15:55:19,734 - INFO - End-to-end test begins
+2024-01-29 15:55:20,741 - INFO - Performing search and selecting a product
+2024-01-29 15:55:20,775 - INFO - Entered search term: 'arg' in the search box.
+2024-01-29 15:55:21,690 - WARNING - No product found with search term: 'arg'.
+2024-01-29 15:55:22,457 - INFO - Selected product with search term: 'arg'.
+2024-01-29 15:55:22,457 - INFO - Performing actions on the search results page
+2024-01-29 15:55:22,623 - INFO - Clicked on size button.
+2024-01-29 15:55:22,662 - INFO - Clicked on color button.
+2024-01-29 15:55:22,697 - INFO - Clicked on add button.
+2024-01-29 15:55:24,761 - INFO - Clicked on cart button.
+2024-01-29 15:55:27,210 - INFO - Clicked on checkout button.
+2024-01-29 15:55:27,210 - INFO - Filling in delivery information
+2024-01-29 15:55:27,211 - INFO - Filling out shipping information.
+2024-01-29 15:55:29,358 - INFO - Shipping information filled out successfully.
+2024-01-29 15:55:29,386 - INFO - Placing the order
+2024-01-29 15:55:31,536 - INFO - Waiting for the success message to be present.
+2024-01-29 15:55:34,730 - INFO - Success message found: Thank you for your purchase!
+2024-01-29 15:55:34,730 - INFO - Success message verified.
+2024-01-29 15:55:34,730 - INFO - End-to-end test completed
+2024-01-29 15:56:17,046 - INFO - Test starting: Adding product to the cart.
+2024-01-29 15:56:20,212 - INFO - Hovered over Men products.
+2024-01-29 15:56:20,488 - INFO - Hovered over Men Tops.
+2024-01-29 15:56:21,343 - INFO - Clicked on Men Jackets.
+2024-01-29 15:56:21,359 - INFO - Page title: Jackets
+2024-01-29 15:56:21,369 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-29 15:56:22,175 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-29 15:56:22,175 - INFO - Retrieving page title.
+2024-01-29 15:56:22,192 - INFO - Checking the price of the jacket.
+2024-01-29 15:56:22,204 - INFO - Selecting jacket size.
+2024-01-29 15:56:22,465 - INFO - Selecting jacket color.
+2024-01-29 15:56:22,675 - INFO - Clicking on 'Add to Cart' button.
+2024-01-29 15:56:22,889 - INFO - Verifying the success message after adding to cart.
+2024-01-29 15:56:24,322 - INFO - Clicking on the 'Cart' button.
+2024-01-29 15:56:24,539 - INFO - Clicking on the 'Delete' button.
+2024-01-29 15:56:24,581 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-29 15:56:25,324 - INFO - Verifying the message after removing the item.
+2024-01-29 15:56:26,455 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-29 15:56:26,455 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-29 15:56:33,192 - INFO - User registration testing begins.
+2024-01-29 15:56:34,503 - INFO - Filling out registration form.
+2024-01-29 15:56:37,383 - INFO - Registration form filled out successfully.
+2024-01-29 15:56:37,896 - INFO - Successful registration message found.
+2024-01-29 15:56:38,116 - INFO - Clicked on Sign Out button.
+2024-01-29 15:56:45,394 - INFO - User registration testing completed.
+2024-01-29 15:56:45,395 - INFO - User registration testing with existing email begins.
+2024-01-29 15:56:48,757 - INFO - Unsuccessful registration message found.
+2024-01-29 15:56:48,759 - INFO - User registration testing with existing email completed.
+2024-01-29 15:56:55,382 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 15:57:29,153 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 15:57:50,814 - INFO - End-to-end test begins
+2024-01-29 15:57:51,825 - INFO - Performing search and selecting a product
+2024-01-29 15:57:51,864 - INFO - Entered search term: 'arg' in the search box.
+2024-01-29 15:57:52,723 - WARNING - No product found with search term: 'arg'.
+2024-01-29 15:57:53,453 - INFO - Selected product with search term: 'arg'.
+2024-01-29 15:57:53,453 - INFO - Performing actions on the search results page
+2024-01-29 15:57:53,845 - INFO - Clicked on size button.
+2024-01-29 15:57:54,077 - INFO - Clicked on color button.
+2024-01-29 15:57:54,313 - INFO - Clicked on add button.
+2024-01-29 15:57:56,039 - INFO - Clicked on cart button.
+2024-01-29 15:57:58,282 - INFO - Clicked on checkout button.
+2024-01-29 15:57:58,283 - INFO - Filling in delivery information
+2024-01-29 15:57:58,283 - INFO - Filling out shipping information.
+2024-01-29 15:59:10,018 - INFO - Test starting: Adding product to the cart.
+2024-01-29 15:59:16,052 - INFO - Hovered over Men products.
+2024-01-29 15:59:16,332 - INFO - Hovered over Men Tops.
+2024-01-29 15:59:17,558 - INFO - Clicked on Men Jackets.
+2024-01-29 15:59:17,563 - INFO - Page title: Jackets
+2024-01-29 15:59:17,571 - INFO - Found jacket with name: 'Lando Gym Jacket'
+2024-01-29 15:59:18,127 - INFO - Product Lando Gym Jacket found and clicked.
+2024-01-29 15:59:18,128 - INFO - Retrieving page title.
+2024-01-29 15:59:18,136 - INFO - Checking the price of the jacket.
+2024-01-29 15:59:18,145 - INFO - Selecting jacket size.
+2024-01-29 15:59:18,512 - INFO - Selecting jacket color.
+2024-01-29 15:59:18,722 - INFO - Clicking on 'Add to Cart' button.
+2024-01-29 15:59:18,937 - INFO - Verifying the success message after adding to cart.
+2024-01-29 15:59:20,503 - INFO - Clicking on the 'Cart' button.
+2024-01-29 15:59:20,719 - INFO - Clicking on the 'Delete' button.
+2024-01-29 15:59:20,769 - INFO - Clicking on the 'Remove' button in the confirmation popup.
+2024-01-29 15:59:21,503 - INFO - Verifying the message after removing the item.
+2024-01-29 15:59:22,642 - INFO - Assertion: Successfully checked the shopping cart is empty.
+2024-01-29 15:59:22,642 - INFO - Test finished: Product added to the cart and removed from the cart.
+2024-01-29 15:59:29,275 - INFO - User registration testing begins.
+2024-01-29 15:59:30,567 - INFO - Filling out registration form.
+2024-01-29 15:59:33,321 - INFO - Registration form filled out successfully.
+2024-01-29 15:59:33,832 - INFO - Successful registration message found.
+2024-01-29 15:59:34,050 - INFO - Clicked on Sign Out button.
+2024-01-29 15:59:41,204 - INFO - User registration testing completed.
+2024-01-29 15:59:41,205 - INFO - User registration testing with existing email begins.
+2024-01-29 15:59:44,270 - INFO - Unsuccessful registration message found.
+2024-01-29 15:59:44,273 - INFO - User registration testing with existing email completed.
+2024-01-29 15:59:52,074 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 16:00:25,605 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 16:00:47,395 - INFO - End-to-end test begins
+2024-01-29 16:00:48,399 - INFO - Performing search and selecting a product
+2024-01-29 16:00:48,437 - INFO - Entered search term: 'arg' in the search box.
+2024-01-29 16:00:49,547 - WARNING - No product found with search term: 'arg'.
+2024-01-29 16:00:50,335 - INFO - Selected product with search term: 'arg'.
+2024-01-29 16:00:50,335 - INFO - Performing actions on the search results page
+2024-01-29 16:00:50,731 - INFO - Clicked on size button.
+2024-01-29 16:00:50,948 - INFO - Clicked on color button.
+2024-01-29 16:00:51,168 - INFO - Clicked on add button.
+2024-01-29 16:00:54,426 - INFO - Clicked on cart button.
+2024-01-29 16:00:57,453 - INFO - Clicked on checkout button.
+2024-01-29 16:00:57,454 - INFO - Filling in delivery information
+2024-01-29 16:00:57,454 - INFO - Filling out shipping information.
+2024-01-29 16:01:32,405 - INFO - Testing sign-in with correct credentials begins.
+2024-01-29 16:01:36,884 - INFO - Clicked on Sign Out button.
+2024-01-29 16:01:38,492 - INFO - Testing sign-in with correct credentials completed.
+2024-01-29 16:01:38,493 - INFO - Testing sign-in with incorrect credentials begins.
+2024-01-29 16:01:41,762 - INFO - Testing sign-in with incorrect credentials completed.
+2024-02-02 01:25:50,160 - INFO - Testing sign-in with correct credentials begins.
+2024-02-02 01:25:53,460 - INFO - Clicked on Sign Out button.
+2024-02-02 01:25:54,493 - INFO - Testing sign-in with correct credentials completed.
+2024-02-02 01:26:01,476 - INFO - Testing sign-in with incorrect credentials begins.
+2024-02-02 01:26:03,862 - INFO - Testing sign-in with incorrect credentials completed.
+2024-02-02 01:31:13,919 - INFO - Testing sign-in with correct credentials begins.
+2024-02-02 01:31:17,264 - INFO - Clicked on Sign Out button.
+2024-02-02 01:31:18,183 - INFO - Testing sign-in with correct credentials completed.
+2024-02-02 01:39:44,577 - INFO - User registration testing begins.
+2024-02-02 01:40:02,078 - INFO - Filling out registration form.
+2024-02-02 01:41:47,665 - INFO - Testing sign-in with correct credentials begins.
+2024-02-02 01:41:51,159 - INFO - Clicked on Sign Out button.
+2024-02-02 01:41:52,197 - INFO - Testing sign-in with correct credentials completed.
+2024-02-02 01:42:06,766 - INFO - Testing sign-in with incorrect credentials begins.
+2024-02-02 01:42:09,240 - INFO - Testing sign-in with incorrect credentials completed.

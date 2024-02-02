@@ -9,7 +9,7 @@ class BaseClass:
     def getLogger(self):
         logger = logging.getLogger(__name__)
 
-        # Proverite da li već postoji file_handler
+        # Proverava da li već postoji file_handler
         file_handler_exists = any(isinstance(handler, logging.FileHandler) for handler in logger.handlers)
 
         if not file_handler_exists:
