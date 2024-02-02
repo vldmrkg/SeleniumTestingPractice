@@ -8,28 +8,28 @@ class CustomerLogin:
 
     def __init__(self, driver):
         self.driver = driver
-    titlePage = (By.XPATH, "//span[@class='base']")
-    logInEmail = (By.XPATH, "//input[@name='login[username]']")
-    logInPasswrod = (By.XPATH, "//input[@name='login[password]']")
-    signInButton = (By.XPATH, "//button[@id='send2'][.='Sign In']")
-    allertMessage = (By.CSS_SELECTOR, ".message-error.error.message")
+        self.titlePage = (By.XPATH, "//span[@class='base']")
+        self.logInEmail = (By.XPATH, "//input[@name='login[username]']")
+        self.logInPasswrod = (By.XPATH, "//input[@name='login[password]']")
+        self.signInButton = (By.XPATH, "//button[@id='send2'][.='Sign In']")
+        self.allertMessage = (By.CSS_SELECTOR, ".message-error.error.message")
 
     def page_title(self):
-        return self.driver.find_element(*CustomerLogin.titlePage).text
+        return self.driver.find_element(*self.titlePage).text
 
-    def email_log_in(self):
-        return self.driver.find_element(*CustomerLogin.logInEmail)
+    def enter_email(self, email):
+        return self.driver.find_element(*self.logInEmail).send_keys(email)
 
-    def password_log_in(self):
-        return self.driver.find_element(*CustomerLogin.logInPasswrod)
+    def enter_password(self, password):
+        return self.driver.find_element(*self.logInPasswrod).send_keys(password)
 
-    def sing_in_button(self):
-        return self.driver.find_element(*CustomerLogin.signInButton).click()
+    def sign_in_button(self):
+        return self.driver.find_element(*self.signInButton).click()
 
     def alert_message(self):
         try:
             message = WebDriverWait(self.driver, 20).until(
-                EC.presence_of_element_located(CustomerLogin.allertMessage)
+                EC.presence_of_element_located(self.allertMessage)
             )
             return message.text
         except TimeoutException:
