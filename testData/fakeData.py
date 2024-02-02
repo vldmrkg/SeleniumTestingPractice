@@ -52,7 +52,7 @@ class SignInPageData:
 
 
 class CreateAccPageData:
-    # Lista sa test podacima za RegistrationPage
+    # Lista sa test podacima za test Create Account
     test_registrationPage_data = [
         {
             "existing_email": "vldmr@gmail.comm",
