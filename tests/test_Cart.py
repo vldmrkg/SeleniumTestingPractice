@@ -20,9 +20,9 @@ class TestProductCart(BaseClass):
         sign_in_customer = CustomerLogin(self.driver)
 
         homePage.sign_in()
-        sign_in_customer.email_log_in().send_keys(self.EMAIL)
-        sign_in_customer.password_log_in().send_keys(self.PASSWORD)
-        sign_in_customer.sing_in_button()
+        sign_in_customer.enter_email(self.EMAIL)
+        sign_in_customer.enter_password(self.PASSWORD)
+        sign_in_customer.sign_in_button()
 
         homePage.click_on_man_jackets()
         jacketPage = Jackets(self.driver)
@@ -36,26 +36,25 @@ class TestProductCart(BaseClass):
         else:
             self.log.warning(f"Product {self.JACKET_NAME} not found.")
 
-        landoJakcet = LandoJacket(self.driver)
-        assert self.JACKET_NAME in landoJakcet.page_title()
-        assert "99.00" in landoJakcet.check_price()
-        landoJakcet.jacket_size()
-        landoJakcet.jacket_color()
+        landoJacket = LandoJacket(self.driver)
+        assert self.JACKET_NAME in landoJacket.page_title()
+        assert "99.00" in landoJacket.check_price()
+        landoJacket.jacket_size()
+        landoJacket.jacket_color()
 
-        landoJakcet.add_to_cart_button()
-        assert "You added Lando Gym Jacket to your shopping cart." in landoJakcet.confirm_message()
-        landoJakcet.cart_button()
-        landoJakcet.delete_button()
-        landoJakcet.remove_button()
+        landoJacket.add_to_cart_button()
+        assert "You added Lando Gym Jacket to your shopping cart." in landoJacket.confirm_message()
+        landoJacket.cart_button()
+        landoJacket.delete_button()
+        landoJacket.remove_button()
         try:
-            assert "You have no items in your shopping cart." in landoJakcet.remove_message()
+            assert "You have no items in your shopping cart." in landoJacket.remove_message()
             self.log.info("Assertion: Successfully checked the shopping cart is empty.")
         except AssertionError as ae:
             self.log.error(f"Assertion failed: {ae}")
             raise
 
         self.log.info("Test finished: Product added to the cart and removed from the cart.")
-
 
 
 
