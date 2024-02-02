@@ -31,7 +31,7 @@ class CheckOutPageData:
     ]
 
 class SignInPageData:
-    # Lista sa test podacima za SignInPage
+     # Lista sa test podacima za test SignIn
     test_signInPage_data = [
         {
             "correct_email": "vldmr@gmail.comm",
