@@ -25,20 +25,23 @@ class TestRegistration(BaseClass):
 
         log.info("User registration testing completed.")
 
+    
     def test_register_user_existing_email(self):
         log = self.getLogger()
         log.info("User registration testing with existing email begins.")
 
         try:
-            EXISTING_EMAIL = "vldmr@gmail.comm"
+            existing_email = CreateAccPageData.get_existing_user_data()
+            new_first_name, new_last_name, new_password, confirm_password = CreateAccPageData.get_new_user_data()
+
             homePage = HomePage(self.driver)
             newAccount = homePage.create_account()
 
-            newAccount.first_name().send_keys("Mario")
-            newAccount.last_name().send_keys("Markis")
-            newAccount.email_input().send_keys(EXISTING_EMAIL)
-            newAccount.password_input().send_keys("Sifra123")
-            newAccount.password_confirm().send_keys("Sifra123")
+            newAccount.first_name().send_keys(new_first_name)
+            newAccount.last_name().send_keys(new_last_name)
+            newAccount.email_input().send_keys(existing_email)
+            newAccount.password_input().send_keys(new_password)
+            newAccount.password_confirm().send_keys(confirm_password)
             newAccount.create_account().click()
 
             registration_confirmation = MyAccount(self.driver)
@@ -47,7 +50,7 @@ class TestRegistration(BaseClass):
             log.info("User registration testing with existing email completed.")
 
         except Exception as e:
-            log.error(f"Error during user registration with existing email: {str(e)}")
+            log.error(f"Error during user registration with existing email: {str(e)}")        
 
     @pytest.fixture(params=HomePageData.test_homePage_data)
     def getData(self, request):
