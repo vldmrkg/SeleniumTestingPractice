@@ -6,11 +6,6 @@ from locators.HomePage import HomePage
 
 class TestSignIn(BaseClass):
 
-    CORRECT_EMAIL = "vldmr@gmail.comm"
-    CORRECT_PASSWORD = "Lalalala123123"
-    INCORRECT_EMAIL = "vldmra@gmail.comm"
-    INCORRECT_PASSWORD = "Lalalala123123sa"
-
     def perform_sign_in(self, email, password, expected_welcome_message=None):
         log = self.getLogger()
         log.info(f"Testing sign-in with {'correct' if expected_welcome_message else 'incorrect'} credentials begins.")
@@ -36,11 +31,12 @@ class TestSignIn(BaseClass):
             log.info("Testing sign-in with incorrect credentials completed.")
 
     def test_sign_in_correct_data(self):
-        self.perform_sign_in(TestSignIn.CORRECT_EMAIL, TestSignIn.CORRECT_PASSWORD, "Welcome, Vladimir Timotijevic!")
+        correct_email, correct_password = SignInPageData.get_correct_signin_data()
+        self.perform_sign_in(correct_email, correct_password, "Welcome, Vladimir Timotijevic!")
 
     def test_sign_in_incorrect_data(self):
-        self.perform_sign_in(TestSignIn.INCORRECT_EMAIL, TestSignIn.INCORRECT_PASSWORD)
-
+        incorrect_email, incorrect_password = SignInPageData.get_incorrect_signin_data()
+        self.perform_sign_in(incorrect_email, incorrect_password)
 
 
 
