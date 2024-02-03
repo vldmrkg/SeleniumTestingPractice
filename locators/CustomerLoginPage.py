@@ -4,11 +4,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class CustomerLogin:
+class CustomerLogin(BaseClass):
 
     def __init__(self, driver):
         self.driver = driver
-        
+
         self.titlePage = (By.XPATH, "//span[@class='base']")
         self.logInEmail = (By.XPATH, "//input[@name='login[username]']")
         self.logInPasswrod = (By.XPATH, "//input[@name='login[password]']")
@@ -36,11 +36,37 @@ class CustomerLogin:
         except TimeoutException:
             return "Element not found or not visible within 10 seconds."
 
-    def sign_in_action(self, email, password):
+    def perform_sign_in(self, email, password, home_page, expected_welcome_message=None):
+        log = BaseClass.getLogger()
+        log.info(f"Testing sign-in with {'correct' if expected_welcome_message else 'incorrect'} credentials begins.")
+
+        home_page.sign_in()
+        self.driver.implicitly_wait(15)
+
+        assert self.page_title() == "Customer Login"
+
         self.enter_email(email)
         self.enter_password(password)
         self.sign_in_button()
 
+        if expected_welcome_message:
+            welcome_message = home_page.welcome_user_message()
+            assert welcome_message == expected_welcome_message
+            log.info(f"Welcome message: {welcome_message}")
+
+            logOut = MyAccount(self.driver)
+            logOut.click_sign_out()
+            log.info("Testing sign-in with correct credentials completed.")
+        else:
+            alert_msg = self.alert_message()
+            assert "The account sign-in was incorrect" in alert_msg
+            log.info(f"Alert message: {alert_msg}")
+            log.info("Testing sign-in with incorrect credentials completed.")
+
+    def sign_in_action(self, email, password):
+        self.enter_email(email)
+        self.enter_password(password)
+        self.sign_in_button()
 
 
 
