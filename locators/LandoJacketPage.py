@@ -98,6 +98,19 @@ class LandoJacket(BaseClass):
             self.log.error(f"Error verifying remove message: {e}")
             return None
 
+    def add_and_remove_from_cart_action(self):
+        self.add_to_cart_button()
+        assert "You added Lando Gym Jacket to your shopping cart." in self.confirm_message()
+        self.cart_button()
+        self.delete_button()
+        self.remove_button()
+
+        try:
+            assert "You have no items in your shopping cart." in self.remove_message()
+            self.log.info("Assertion: Successfully checked the shopping cart is empty.")
+        except AssertionError as ae:
+            self.log.error(f"Assertion failed: {ae}")
+            raise
 
 
 
