@@ -2,6 +2,7 @@ from locators.CustomerLoginPage import CustomerLogin
 from locators.HomePage import HomePage
 from locators.JacketsPage import Jackets
 from locators.LandoJacketPage import LandoJacket
+from testData.fakeData import TestCartData
 from utilities.BaseClass import BaseClass
 
 
