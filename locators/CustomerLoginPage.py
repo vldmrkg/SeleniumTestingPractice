@@ -38,7 +38,11 @@ class CustomerLogin(BaseClass):
 
     def perform_sign_in(self, email, password, home_page, expected_welcome_message=None):
         log = BaseClass.getLogger()
-        log.info(f"Testing sign-in with {'correct' if expected_welcome_message else 'incorrect'} credentials begins.")
+
+        if expected_welcome_message:
+            log.info("Testing sign-in with correct credentials begins.")
+        else:
+            log.info("Testing sign-in with incorrect credentials begins.")
 
         home_page.sign_in()
         self.driver.implicitly_wait(15)
@@ -50,18 +54,32 @@ class CustomerLogin(BaseClass):
         self.sign_in_button()
 
         if expected_welcome_message:
-            welcome_message = home_page.welcome_user_message()
-            assert welcome_message == expected_welcome_message
-            log.info(f"Welcome message: {welcome_message}")
-
-            logOut = MyAccount(self.driver)
-            logOut.click_sign_out()
-            log.info("Testing sign-in with correct credentials completed.")
+            self.verify_successful_sign_in(home_page, expected_welcome_message)
         else:
-            alert_msg = self.alert_message()
-            assert "The account sign-in was incorrect" in alert_msg
-            log.info(f"Alert message: {alert_msg}")
-            log.info("Testing sign-in with incorrect credentials completed.")
+            self.verify_unsuccessful_sign_in()
+
+    def verify_successful_sign_in(self, home_page, expected_welcome_message):
+        log = BaseClass.getLogger()
+
+        welcome_message = home_page.welcome_user_message()
+        assert welcome_message == expected_welcome_message
+        log.info(f"Successful sign-in. Welcome message: {welcome_message}")
+
+        self.perform_sign_out(log, home_page)
+        log.info("Testing sign-in with correct credentials completed.")
+
+    def verify_unsuccessful_sign_in(self):
+        log = BaseClass.getLogger()
+
+        alert_msg = self.alert_message()
+        assert "The account sign-in was incorrect" in alert_msg
+        log.info(f"Unsuccessful sign-in. Alert message: {alert_msg}")
+        log.info("Testing sign-in with incorrect credentials completed.")
+
+    def perform_sign_out(self, log, home_page):
+        logOut = MyAccount(self.driver)
+        logOut.click_sign_out()
+        log.info("User signed out successfully.")
 
     def sign_in_action(self, email, password):
         self.enter_email(email)
