@@ -72,3 +72,10 @@ class CreateAccPageData:
     def get_new_user_data(cls):
         data = cls.test_registrationPage_data[0]
         return data["new_first_name"], data["new_last_name"], data["new_password"], data["confirm_password"]
+
+
+class TestCartData:
+    email = "vldmr@gmail.comm"
+    password = "Lalalala123123"
+    jacketName = "Lando Gym Jacket"
+    jacket_price = "99.00"
