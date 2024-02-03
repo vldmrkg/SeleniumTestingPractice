@@ -38,7 +38,12 @@ class Jackets(BaseClass):
             self.log.warning("Products list not found or empty.")
         return None
 
-
-
+    def find_and_click_jacket(self, jacket_name):
+        found_jacket = self.find_jacket(jacket_name)
+        if found_jacket:
+            found_jacket.click()
+            self.log.info(f"Product {jacket_name} found and clicked.")
+        else:
+            self.log.warning(f"Product {jacket_name} not found.")
 
 
