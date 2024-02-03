@@ -58,6 +58,7 @@ class HomePage(BaseClass):
         jackets_element = self.driver.find_element(*HomePage.manJackets)
         jackets_element.click()
         self.log.info("Clicked on Men Jackets.")
+        return Jackets(self.driver)
 
     def get_all_product_texts(self):
         product_elements = self.driver.find_elements(*HomePage.products)
