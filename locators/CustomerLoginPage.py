@@ -8,6 +8,7 @@ class CustomerLogin:
 
     def __init__(self, driver):
         self.driver = driver
+        
         self.titlePage = (By.XPATH, "//span[@class='base']")
         self.logInEmail = (By.XPATH, "//input[@name='login[username]']")
         self.logInPasswrod = (By.XPATH, "//input[@name='login[password]']")
@@ -35,8 +36,10 @@ class CustomerLogin:
         except TimeoutException:
             return "Element not found or not visible within 10 seconds."
 
-
-
+    def sign_in_action(self, email, password):
+        self.enter_email(email)
+        self.enter_password(password)
+        self.sign_in_button()
 
 
 
