@@ -32,17 +32,8 @@ class TestRegistration(BaseClass):
         try:
             existing_email = CreateAccPageData.get_existing_user_data()
             new_first_name, new_last_name, new_password, confirm_password = CreateAccPageData.get_new_user_data()
-
             homePage = HomePage(self.driver)
-            newAccount = homePage.create_account()
-
-            newAccount.first_name().send_keys(new_first_name)
-            newAccount.last_name().send_keys(new_last_name)
-            newAccount.email_input().send_keys(existing_email)
-            newAccount.password_input().send_keys(new_password)
-            newAccount.password_confirm().send_keys(confirm_password)
-            newAccount.create_account().click()
-
+            homePage.fill_out_registration(new_first_name, new_last_name, existing_email, new_password)
             registration_confirmation = MyAccount(self.driver)
             assert "There is already an account with this email address." in registration_confirmation.unsuccessful_registration()
 
