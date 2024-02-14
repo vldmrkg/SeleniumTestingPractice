@@ -80,3 +80,12 @@ class HomePage(BaseClass):
                 break
             else:
                 self.log.warning(f"No product found with search term: '{product_name}'.")
+
+    def fill_out_registration(self, first_name, last_name, email, password):
+        newAccount = self.create_account()
+        newAccount.first_name().send_keys(first_name)
+        newAccount.last_name().send_keys(last_name)
+        newAccount.email_input().send_keys(email)
+        newAccount.password_input().send_keys(password)
+        newAccount.password_confirm().send_keys(password)
+        newAccount.create_account().click()
